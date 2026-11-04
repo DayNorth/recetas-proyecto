@@ -1,0 +1,3132 @@
+[
+  {
+    "idMeal": "53415",
+    "titulo": "Torrijas",
+    "tituloOriginal": "Torrijas",
+    "descripcion": "Rebanadas de pan remojadas en leche aromatizada con cítricos y canela, fritas y servidas con miel. Fuente: TheMealDB.",
+    "categoria": "Desayunos",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 40,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/927vvp1779732018.jpg",
+    "video": "https://www.youtube.com/embed/ympLYopSKow",
+    "ingredientes": [
+      {
+        "nombre": "Naranja",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Limón",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Leche entera",
+        "cantidad": 4,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Canela en rama",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Jerez seco",
+        "cantidad": 0.33,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Baguette",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Miel",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para servir"
+      }
+    ],
+    "pasos": [
+      "Ralla finamente la cáscara de 1 naranja mediana (unas 2 cucharaditas) y de 1 limón mediano (1 cucharadita) dentro de una olla mediana.",
+      "Agrega 1 litro de leche entera, 1/2 taza de azúcar y 1 rama de canela. Lleva a ebullición a fuego medio. Retira del fuego, agrega 1/3 de taza de jerez seco y deja entibiar. Mientras tanto, corta 1 baguette del día anterior (unos 340 g) en rebanadas de 2,5 cm de grosor (unas 16) y acomódalas en una sola capa sobre una bandeja con borde.",
+      "Vierte la mezcla de leche sobre el pan y déjalo remojar 5 minutos. Voltea cada rebanada y deja reposar unos 5 minutos más, hasta que absorba casi todo el líquido sin deshacerse.",
+      "Calienta 1 taza de aceite de oliva en una sartén grande a fuego medio-alto hasta que brille. Mientras, bate los 4 huevos en un tazón mediano.",
+      "Pasa las rebanadas de una en una por el huevo y deja escurrir el exceso; fríelas en una sola capa hasta que estén doradas por debajo (unos 4 minutos). Voltea y fríe el otro lado de 3 a 4 minutos más. Escurre sobre papel absorbente y repite con el resto del pan. Sirve con un chorrito de miel."
+    ]
+  },
+  {
+    "idMeal": "53331",
+    "titulo": "Panqueques de avena",
+    "tituloOriginal": "Oatmeal pancakes",
+    "descripcion": "Panqueques rápidos de avena molida, servidos con caramelo y fresas. Fuente: TheMealDB.",
+    "categoria": "Desayunos",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 25,
+    "porcionesBase": 2,
+    "imagen": "https://www.themealdb.com/images/media/meals/c400ok1764439058.jpg",
+    "video": "https://www.youtube.com/embed/kkrRFWN4LG4",
+    "ingredientes": [
+      {
+        "nombre": "Huevo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 80,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Polvo de hornear",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Vainilla",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "pizca"
+      },
+      {
+        "nombre": "Avena molida",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Almíbar",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Fresas",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Coloca todos los ingredientes en el vaso de la licuadora y bate.",
+      "Deja reposar la mezcla 10 minutos.",
+      "Engrasa una sartén caliente con un poco de mantequilla y vierte una porción pequeña de la mezcla.",
+      "Cuando empiecen a salir burbujas en la superficie, voltea con una espátula. Cocina a fuego medio-bajo para que no se quemen.",
+      "Para terminar, agrega el caramelo y las fresas."
+    ]
+  },
+  {
+    "idMeal": "53076",
+    "titulo": "Pan con huevo",
+    "tituloOriginal": "Bread omelette",
+    "descripcion": "Desayuno sencillo de pan dorado con huevo, listo en minutos. Fuente: TheMealDB.",
+    "categoria": "Desayunos",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 10,
+    "porcionesBase": 1,
+    "imagen": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Pan",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Bate los huevos con la sal en un plato hondo.",
+      "Pasa las rebanadas de pan por el huevo batido, de modo que se empapen bien.",
+      "Dora el pan en una sartén caliente con un poco de aceite, de ambos lados, y sirve de inmediato."
+    ]
+  },
+  {
+    "idMeal": "52965",
+    "titulo": "Papas del desayuno con tocino",
+    "tituloOriginal": "Breakfast Potatoes",
+    "descripcion": "Papas doradas con tocino crujiente, ajo y un toque de sirope de arce. Fuente: TheMealDB.",
+    "categoria": "Desayunos",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 35,
+    "porcionesBase": 3,
+    "imagen": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+    "video": "https://www.youtube.com/embed/BoD0TIO9nE4",
+    "ingredientes": [
+      {
+        "nombre": "Papa",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Tocino",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "tiras"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "picado fino"
+      },
+      {
+        "nombre": "Sirope de arce",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para decorar"
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Pimienta gorda",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Antes de empezar, congela las rebanadas de tocino: así será mucho más fácil picarlas.",
+      "Lava las papas y córtalas en cubos medianos. Para que no se oscurezcan, colócalas en un tazón con agua.",
+      "Mientras tanto, calienta 1 o 2 cucharadas de aceite en una sartén grande a fuego medio-alto e inclínala para repartirlo.",
+      "Cuando el aceite esté caliente, escurre las papas y agrégalas. Sazona con sal, pimienta y pimienta gorda al gusto.",
+      "Cocina 10 minutos, revolviendo a menudo, hasta que doren. Si hace falta, agrega una cucharada más de aceite.",
+      "Pica el tocino y añádelo a las papas. Soltará su grasa y terminará de cocinarlas. Revuelve de vez en cuando; el tocino tarda de 5 a 6 minutos en quedar crujiente.",
+      "Cuando el tocino esté listo, baja el fuego a medio-bajo, agrega el ajo picado y mezcla. Vuelve a sazonar y añade perejil seco o fresco.",
+      "Deja cocinar el ajo hasta que suelte aroma, aproximadamente un minuto.",
+      "Justo antes de servir, agrega el sirope de arce, revuelve y cocina un minuto más para caramelizar las papas.",
+      "Sirve en un plato caliente, acompañado de un huevo frito."
+    ]
+  },
+  {
+    "idMeal": "52896",
+    "titulo": "Desayuno inglés completo",
+    "tituloOriginal": "Full English Breakfast",
+    "descripcion": "Salchichas, tocino, champiñones, tomate, morcilla, huevo, pan frito y frijoles horneados. Fuente: TheMealDB.",
+    "categoria": "Desayunos",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 2,
+    "imagen": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
+    "video": "https://www.youtube.com/embed/FXjYU2Ensck",
+    "ingredientes": [
+      {
+        "nombre": "Salchichas",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Tocino",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Champiñones",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Morcilla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "en rodajas"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Pan",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "rebanada"
+      },
+      {
+        "nombre": "Frijoles horneados",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Calienta a fuego bajo una plancha o parrilla plana y úntala con muy poco aceite de oliva ligero.",
+      "Cocina primero las salchichas: ponlas en la parte menos caliente de la plancha y déjalas de 15 a 20 minutos, dándoles vuelta, hasta que doren. A los 10 minutos sube el fuego a medio para empezar con el resto. Si falta espacio, termina de cocinarlas y mantenlas calientes en el horno.",
+      "Haz unos cortes pequeños en el borde graso del tocino. Colócalo directamente en la plancha y fríelo de 2 a 4 minutos por lado, según lo prefieras de crujiente. Puedes mantenerlo caliente en el horno.",
+      "Limpia los champiñones con una brocha, corta el tallo al nivel del sombrero, sazona con sal y pimienta y rocía un poco de aceite. Cocínalos con el tallo hacia arriba 1 o 2 minutos, voltea y cocina de 3 a 4 minutos más. Muévelos poco para que no suelten sus jugos y no se ablanden.",
+      "Corta los tomates por la mitad, quítales el ojo verde, sazona y rocía un poco de aceite. Cocínalos con el corte hacia abajo 2 minutos sin moverlos; voltea con cuidado, sazona otra vez y cocina de 2 a 3 minutos más, hasta que estén tiernos pero conserven la forma.",
+      "Corta la morcilla en 3 o 4 rebanadas, quítale la piel y cocínala en la plancha de 1 1/2 a 2 minutos por lado, hasta que esté ligeramente crujiente.",
+      "El pan frito queda mejor en una sartén aparte y con pan de un par de días. Calienta la sartén a fuego medio, cubre el fondo con aceite y fríe el pan de 2 a 3 minutos por lado hasta dorar. Si se seca, agrega un poco más de aceite; para más sabor, añade un trozo de mantequilla al voltearlo.",
+      "Para los huevos, rómpelos directamente en la sartén del pan frito y déjalos 30 segundos. Agrega un buen trozo de mantequilla y báñalos con ella al derretirse. Cocínalos al punto que prefieras, sazona y retíralos con una espátula.",
+      "Cuando todo esté listo, sirve en platos calientes y disfruta de inmediato, con un buen chorro de salsa de tomate o salsa marrón. Calienta los frijoles horneados aparte y acompaña."
+    ]
+  },
+  {
+    "idMeal": "53522",
+    "titulo": "Arroz con leche",
+    "tituloOriginal": "Arroz con Leche Recipe",
+    "descripcion": "Postre cremoso de arroz cocido en leche con canela, vainilla y leche condensada. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 120,
+    "porcionesBase": 8,
+    "imagen": "https://www.themealdb.com/images/media/meals/jp09191782856005.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Arroz",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Canela en rama",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Agua",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 4,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Vainilla",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Leche condensada",
+        "cantidad": 340,
+        "unidad": "g",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "En una olla pequeña, coloca el agua y las ramas de canela, lleva a ebullición y cocina 10 minutos. Reserva y descarta la canela.",
+      "Coloca el arroz y el agua de canela en una olla grande a fuego medio y cocina 5 minutos.",
+      "Agrega la sal, la mantequilla, la vainilla, 2 tazas de leche y el azúcar. Mezcla bien y cocina sin tapar unos 15 minutos.",
+      "Baja el fuego a medio-bajo. Añade el resto de la leche y la leche condensada y revuelve con una cuchara de madera. Cocina 1 hora y 15 minutos, o hasta que el arroz espese a la consistencia deseada.",
+      "Revuelve bien, retira del fuego y deja enfriar a temperatura ambiente. Debe quedar muy cremoso. Refrigera al menos 1 hora o toda la noche."
+    ]
+  },
+  {
+    "idMeal": "53322",
+    "titulo": "Flan uruguayo",
+    "tituloOriginal": "Flan",
+    "descripcion": "Flan de vainilla con caramelo, horneado a baño maría y servido con dulce de leche. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 90,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/0s80wo1764374393.jpg",
+    "video": "https://www.youtube.com/embed/rpv_PXIoysE",
+    "ingredientes": [
+      {
+        "nombre": "Azúcar",
+        "cantidad": 145,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 350,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Vaina de vainilla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Yemas de huevo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Dulce de leche",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Para el caramelo, pon 100 gramos de azúcar en una sartén sin grasa y derrítela a fuego medio. Procura no revolver con cuchara: mueve la sartén en círculos. Cuando tenga color ámbar y esté totalmente derretida, reparte el caramelo en el fondo de cuatro flaneras (unos 120 ml cada una). El caramelo endurece enseguida, así que hay que ser rápido.",
+      "Precalienta el horno a 150 °C y busca una bandeja honda o refractaria donde quepan las cuatro flaneras.",
+      "Calienta la leche con 45 gramos de azúcar y la vaina de vainilla abierta y raspada. No necesita hervir, solo calentarse. Saca la vaina después de unos minutos. Mientras, mezcla suavemente las yemas y los huevos sin incorporar aire. Vierte la leche sobre los huevos y vuelve a mezclar muy suavemente. Reparte en las flaneras y colócalas en la bandeja. Hierve agua y viértela en la bandeja, sin tocar la mezcla del flan. Hornea en la rejilla del medio de 35 a 40 minutos: un palillo insertado debe salir limpio.",
+      "Deja enfriar en las flaneras durante una hora y luego pasa al refrigerador toda la noche. Al día siguiente, suelta los bordes con cuidado y voltea sobre un plato. Sirve con dulce de leche al lado."
+    ]
+  },
+  {
+    "idMeal": "53153",
+    "titulo": "Churros con salsa de chocolate",
+    "tituloOriginal": "Churros",
+    "descripcion": "Churros fritos y espolvoreados con azúcar y canela, para mojar en salsa de chocolate. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/nxnny61763250596.jpg",
+    "video": "https://www.youtube.com/embed/453mpKHVaBs",
+    "ingredientes": [
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 50,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Vainilla",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Harina",
+        "cantidad": 250,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Polvo de hornear",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de girasol",
+        "cantidad": 1,
+        "unidad": "l",
+        "nota": null
+      },
+      {
+        "nombre": "Pan",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Chocolate amargo",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Crema para batir",
+        "cantidad": 100,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 100,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Sirope dorado",
+        "cantidad": 3,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Canela",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Hierve agua y mide 300 ml en una jarra; agrega la mantequilla derretida y la vainilla. Tamiza la harina y el polvo de hornear en un tazón grande con una buena pizca de sal. Haz un hueco en el centro, vierte el contenido de la jarra y bate muy rápido con una cuchara de madera hasta que no queden grumos. Deja reposar de 10 a 15 minutos mientras preparas la salsa.",
+      "Coloca todos los ingredientes de la salsa (chocolate, crema, leche y sirope dorado) en una olla y derrite a fuego suave, revolviendo de vez en cuando, hasta obtener una salsa lisa y brillante. Mantén caliente a fuego bajo.",
+      "Llena un tercio de una olla grande y honda con aceite. Calienta hasta que un cubo de pan se dore en 45 segundos a 1 minuto. Cubre una bandeja con papel de cocina y mezcla el azúcar fina con la canela. Cocinar con aceite caliente es peligroso: infórmate antes sobre cómo freír en abundante aceite de forma segura.",
+      "Coloca una boquilla de estrella (de 1,5 a 2 cm) en una manga pastelera y llénala con la masa reposada. Forma 2 o 3 tiras directamente en el aceite, cortando cada una con tijeras de cocina. Fríe hasta que estén doradas y crujientes. Cuidado: si se forman burbujas de aire dentro del churro pueden reventar, sobre todo si el aceite se sobrecalienta o la harina es vieja. Mantén a los niños fuera de la cocina, usa mangas largas y protección para los ojos, y aleja la cara de la olla.",
+      "Cuando estén crujientes y dorados, retira los churros con una espumadera y escúrrelos sobre la bandeja con papel. Sigue con el resto de la masa por tandas, espolvoreando los churros con azúcar y canela. Al final, mézclalos con el azúcar con canela que quede y sirve con la salsa de chocolate para mojar."
+    ]
+  },
+  {
+    "idMeal": "53138",
+    "titulo": "Alfajores",
+    "tituloOriginal": "Alfajores",
+    "descripcion": "Galletas de maicena rellenas de dulce de leche y pasadas por coco rallado. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 90,
+    "porcionesBase": 12,
+    "imagen": "https://www.themealdb.com/images/media/meals/a4kgf21763075288.jpg",
+    "video": "https://www.youtube.com/embed/9WR40GHpsyo",
+    "ingredientes": [
+      {
+        "nombre": "Harina",
+        "cantidad": 300,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Maicena",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Yemas de huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ralladura de limón",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Dulce de leche",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Coco rallado",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un poco"
+      }
+    ],
+    "pasos": [
+      "Prepara la masa: bate la mantequilla con el azúcar. Agrega las yemas y la ralladura de limón. Incorpora poco a poco la harina y la maicena hasta formar una masa. Refrigera 1 hora.",
+      "Hornea las galletas: estira la masa, corta círculos y hornea a 180 °C (350 °F) de 12 a 15 minutos. Deja enfriar.",
+      "Arma los alfajores: unta dulce de leche en una galleta y cubre con otra. Pasa los bordes por coco rallado.",
+      "Consejos: refrigera la masa antes de estirarla para que sea más fácil de manejar y las galletas no se extiendan al hornearse. Para un toque más goloso, baña los alfajores en chocolate derretido y deja que cuajen sobre una rejilla."
+    ]
+  },
+  {
+    "idMeal": "53524",
+    "titulo": "Natilla de coco",
+    "tituloOriginal": "Coconut Natilla Recipe",
+    "descripcion": "Postre cremoso de leche, coco y canela, espesado con maicena. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 8,
+    "imagen": "https://www.themealdb.com/images/media/meals/gp1sj51783799928.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Leche",
+        "cantidad": 3,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Maicena",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": "más 2 cda"
+      },
+      {
+        "nombre": "Leche de coco",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Coco",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Canela en rama",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Leche condensada",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Vainilla",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 0.33,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Canela",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Coloca 1 taza de leche en un tazón pequeño, agrega la maicena y revuelve hasta disolverla. Reserva.",
+      "Licúa la leche de coco con el coco rallado hasta que quede liso. Reserva.",
+      "Pon el resto de la leche y las ramas de canela en una olla mediana y lleva a hervir a fuego medio-bajo. Cuando la leche esté tibia, pero sin hervir, agrega la mezcla de coco.",
+      "Cuando la leche hierva, agrega la leche condensada, el azúcar y la sal. Revuelve bien con una cuchara de madera. Añade la mezcla de leche con maicena y sigue revolviendo sin parar.",
+      "Agrega la vainilla. Baja el fuego y continúa revolviendo hasta que la natilla espese, de 10 a 20 minutos. Añade la mantequilla, revuelve y retira del fuego. Descarta las ramas de canela. Sirve en un platón o en tacitas individuales, espolvorea canela molida y deja enfriar a temperatura ambiente al menos 2 horas. Refrigera hasta el momento de servir."
+    ]
+  },
+  {
+    "idMeal": "53575",
+    "titulo": "Pastel de manzana",
+    "tituloOriginal": "Apple Pie",
+    "descripcion": "Pastel esponjoso de manzana con una capa de azúcar y canela por encima. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 8,
+    "imagen": "https://www.themealdb.com/images/media/meals/stnxzp1784835840.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Manzana",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 125,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Harina",
+        "cantidad": 1.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Bicarbonato de sodio",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Leche agria",
+        "cantidad": 250,
+        "unidad": "ml",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Pela y limpia las manzanas y córtalas en rebanadas.",
+      "Bate los huevos con el azúcar hasta obtener una espuma clara.",
+      "Mezcla la harina, la sal y el bicarbonato.",
+      "Agrega los ingredientes secos a la mezcla de huevo y añade la leche agria poco a poco, revolviendo. Incorpora las manzanas.",
+      "Vierte la masa en un molde engrasado con mantequilla. Espolvorea azúcar (y canela) por encima.",
+      "Hornea a 180 °C durante 30 minutos."
+    ]
+  },
+  {
+    "idMeal": "52855",
+    "titulo": "Panqueques de banano",
+    "tituloOriginal": "Banana Pancakes",
+    "descripcion": "Panqueques de banano y huevo, sin harina, con nueces pecanas y frambuesas. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 15,
+    "porcionesBase": 2,
+    "imagen": "https://www.themealdb.com/images/media/meals/sywswr1511383814.jpg",
+    "video": "https://www.youtube.com/embed/kSKtb2Sv-_U",
+    "ingredientes": [
+      {
+        "nombre": "Banano",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Polvo de hornear",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Vainilla",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un poco"
+      },
+      {
+        "nombre": "Aceite",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Nueces pecanas",
+        "cantidad": 25,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Frambuesas",
+        "cantidad": 125,
+        "unidad": "g",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "En un tazón, machaca el banano con un tenedor hasta obtener un puré espeso. Agrega los huevos, el polvo de hornear y la vainilla.",
+      "Calienta una sartén antiadherente grande a fuego medio y úntala con la mitad del aceite. Con la mitad de la masa, vierte dos panqueques, cocina de 1 a 2 minutos por lado y pasa a un plato. Repite con el aceite y la masa restantes. Cubre los panqueques con las nueces pecanas y las frambuesas."
+    ]
+  },
+  {
+    "idMeal": "52897",
+    "titulo": "Pastel de zanahoria",
+    "tituloOriginal": "Carrot Cake",
+    "descripcion": "Pastel húmedo de zanahoria y nueces con cobertura de queso crema. Fuente: TheMealDB.",
+    "categoria": "Postres",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 120,
+    "porcionesBase": 12,
+    "imagen": "https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg",
+    "video": "https://www.youtube.com/embed/asjZ7iTrGKA",
+    "ingredientes": [
+      {
+        "nombre": "Aceite vegetal",
+        "cantidad": 450,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Harina",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Bicarbonato de sodio",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 550,
+        "unidad": "ml",
+        "nota": "más 150 g"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Canela",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Zanahoria",
+        "cantidad": 500,
+        "unidad": "g",
+        "nota": "rallado"
+      },
+      {
+        "nombre": "Nueces",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Queso crema",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Para el pastel, precalienta el horno a 160 °C (325 °F). Engrasa y forra un molde desmontable de 26 cm.",
+      "Mezcla en un tazón todos los ingredientes del pastel, excepto las zanahorias y las nueces, hasta integrarlos bien. Agrega las zanahorias y las nueces.",
+      "Vierte la mezcla en el molde y hornea 1 hora y 15 minutos, o hasta que un palillo insertado en el centro salga limpio. Saca del horno y deja enfriar 10 minutos; luego desmolda con cuidado y deja enfriar por completo sobre una rejilla.",
+      "Mientras tanto, para la cobertura, bate el queso crema, el azúcar fina y la mantequilla hasta que quede esponjoso. Extiéndela sobre el pastel con una espátula."
+    ]
+  },
+  {
+    "idMeal": "53160",
+    "titulo": "Pisto con huevos",
+    "tituloOriginal": "Pisto con huevos",
+    "descripcion": "Guiso de verduras al estilo español con huevos cocidos directamente en la salsa. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/0nswfe1763279040.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Chiles dulces variados",
+        "cantidad": 5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Orégano",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Tomillo",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "ramitas frescas"
+      },
+      {
+        "nombre": "Hoja de laurel",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "hojas"
+      },
+      {
+        "nombre": "Zucchini",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Berenjena",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un puñado"
+      }
+    ],
+    "pasos": [
+      "Calienta el aceite a fuego bajo en una cacerola grande resistente al fuego o en una sartén de hierro. Agrega las cebollas y una pizca de sal, tapa y cocina suavemente 15 minutos, revolviendo de vez en cuando. Añade el ajo y cocina 2 minutos más.",
+      "Incorpora los chiles dulces y cocina a fuego medio, tapado, unos 5 minutos, revolviendo de vez en cuando, hasta que estén apenas tiernos.",
+      "Mezcla el orégano, el tomillo, el laurel, un poco de pimienta negra y sal si hace falta. Agrega el zucchini y la berenjena, mezcla bien y cocina a fuego medio, tapado, 10 minutos. Añade los tomates, tapa y cocina 20 minutos, revolviendo de vez en cuando.",
+      "Rompe los huevos con cuidado sobre el pisto, procurando no romper las yemas. Cocina en la salsa a fuego medio de 5 a 6 minutos, hasta que los huevos estén cocidos pero con la yema aún blanda. Espolvorea con perejil antes de servir."
+    ]
+  },
+  {
+    "idMeal": "52872",
+    "titulo": "Tortilla española",
+    "tituloOriginal": "Spanish Tortilla",
+    "descripcion": "Tortilla de papa y cebolla cocida lentamente, acompañada de pan con tomate. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/quuxsx1511476154.jpg",
+    "video": "https://www.youtube.com/embed/JceGMNG7rpU",
+    "ingredientes": [
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en rodajas"
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 4,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 25,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Papa",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 6,
+        "unidad": "u",
+        "nota": "dientes"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 8,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un puñado"
+      },
+      {
+        "nombre": "Baguette",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Pon una sartén antiadherente grande a fuego bajo. Cocina la cebolla lentamente en el aceite y la mantequilla hasta que esté suave pero sin dorar, unos 15 minutos. Agrega las papas, tapa la sartén y cocina de 15 a 20 minutos más, revolviendo de vez en cuando para que se frían de manera pareja.",
+      "Cuando las papas estén blandas y la cebolla brillante, machaca 2 dientes de ajo, agrégalos y mezcla; después añade los huevos batidos.",
+      "Tapa la sartén y deja cocinar la tortilla suavemente. A los 20 minutos, los bordes y la base deben estar dorados, la parte de arriba cuajada y el centro todavía un poco tembloroso. Para voltearla, deslízala sobre un plato, coloca otro plato encima, voltea todo y devuélvela a la sartén para terminar de cocinarla. Pasa a un plato y sirve la tortilla tibia o fría, con el perejil picado por encima.",
+      "Para acompañar, toma rebanadas de baguette calientes, pínchalas con un tenedor y frótalas con el ajo restante; cubre con tomate rallado y sazona con sal marina y un chorrito de aceite de oliva."
+    ]
+  },
+  {
+    "idMeal": "53172",
+    "titulo": "Papas bravas",
+    "tituloOriginal": "Patatas bravas",
+    "descripcion": "Papas asadas crujientes con una salsa de tomate picante, típica de las tapas españolas. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 65,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/bvg8sn1763298713.jpg",
+    "video": "https://www.youtube.com/embed/2Hup2nypG2w",
+    "ingredientes": [
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 5,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "pequeño, finamente, en cubos"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "dientes, picado"
+      },
+      {
+        "nombre": "Tomate en lata",
+        "cantidad": 225,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Puré de tomate",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Paprika",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Chile en polvo",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Papa",
+        "cantidad": 900,
+        "unidad": "g",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Calienta el aceite en una olla y sofríe la cebolla unos 5 minutos hasta que se ablande. Agrega el ajo, el tomate en trozos, el puré de tomate, la paprika dulce, el chile en polvo, el azúcar y una pizca de sal; lleva a ebullición revolviendo de vez en cuando. Baja a fuego lento y cocina 10 minutos hasta que quede espesa. Se puede guardar en el refrigerador hasta 24 horas.",
+      "Calienta el horno a 200 °C (180 °C con ventilador). Seca las papas con papel de cocina, colócalas en una bandeja para asar y mézclalas con el aceite de oliva y sal. Hornea de 40 a 50 minutos, hasta que estén crujientes y doradas. Pasa las papas a platos de servir y báñalas con la salsa de tomate. Espolvorea con perejil fresco y sirve."
+    ]
+  },
+  {
+    "idMeal": "53266",
+    "titulo": "Falafel",
+    "tituloOriginal": "Falafel",
+    "descripcion": "Croquetas de garbanzo con cebolla, ajo y especias, doradas en la sartén. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 25,
+    "porcionesBase": 2,
+    "imagen": "https://www.themealdb.com/images/media/meals/u5e9qq1763795441.jpg",
+    "video": "https://www.youtube.com/embed/NZcWedPKysk",
+    "ingredientes": [
+      {
+        "nombre": "Aceite de girasol",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "diente, pelado, machacado"
+      },
+      {
+        "nombre": "Garbanzos",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Cilantro molido",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un puñado"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "batido"
+      }
+    ],
+    "pasos": [
+      "Calienta 1 cucharada de aceite en una sartén grande y sofríe la cebolla y el ajo a fuego bajo 5 minutos, hasta que se ablanden. Pasa a un tazón grande con los garbanzos y las especias y machaca con un tenedor o un prensapapas hasta que los garbanzos queden totalmente deshechos. Agrega el perejil o hierbas secas y sazona al gusto. Añade el huevo y amasa la mezcla con las manos.",
+      "Forma 6 bolas con la mezcla y aplánalas hasta formar tortitas. Calienta el aceite restante en la sartén y fríe los falafel a fuego medio 3 minutos por lado, hasta que estén dorados y firmes. Sirve calientes o fríos con cuscús, pan pita o ensalada."
+    ]
+  },
+  {
+    "idMeal": "53506",
+    "titulo": "Arroz con frijoles y leche de coco",
+    "tituloOriginal": "Rice and Beans",
+    "descripcion": "Arroz y frijoles cocidos en leche de coco con cebolla y chile habanero, al estilo caribeño. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/j8c1d51782772399.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Frijoles rojos",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": "bolsa"
+      },
+      {
+        "nombre": "Leche de coco",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en cubos"
+      },
+      {
+        "nombre": "Chile habanero",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 0.5,
+        "unidad": "cda",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Cocina los frijoles hasta que estén tiernos. Agrega el arroz, la leche de coco, la cebolla, la pimienta negra y la sal, y añade suficiente agua para cubrir apenas los ingredientes.",
+      "Coloca los chiles habaneros encima, con cuidado de no reventarlos. Cocina a fuego lento hasta que el arroz esté tierno. Retira los chiles antes de servir."
+    ]
+  },
+  {
+    "idMeal": "52908",
+    "titulo": "Ratatouille",
+    "tituloOriginal": "Ratatouille",
+    "descripcion": "Guiso provenzal de berenjena, zucchini, chile dulce y tomate, cocinado por etapas. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/wrpwuu1511786491.jpg",
+    "video": "https://www.youtube.com/embed/BFdQUgAFtGU",
+    "ingredientes": [
+      {
+        "nombre": "Berenjena",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Zucchini",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce amarillo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 5,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Albahaca",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un manojo"
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "finamente, picado"
+      },
+      {
+        "nombre": "Vinagre de vino tinto",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Corta las berenjenas por la mitad a lo largo. Colócalas con el corte hacia abajo, vuelve a cortarlas por la mitad a lo largo y luego en trozos de 1,5 cm. Quita las puntas de los zucchinis y córtalos en rodajas de 1,5 cm. Pela los chiles dulces de arriba abajo; sosteniéndolos de pie, corta alrededor del tallo y luego en 3 partes. Retira las membranas y pica en trozos del tamaño de un bocado.",
+      "Haz una pequeña cruz en la base de cada tomate y colócalos en un recipiente resistente al calor. Cúbrelos con agua hirviendo, déjalos 20 segundos y sácalos. Tira el agua, devuelve los tomates y cúbrelos con agua fría. Cuando se enfríen, quita la piel. Pártelos en cuartos, retira las semillas con una cuchara y pica la pulpa en trozos grandes.",
+      "Calienta una sartén honda a fuego medio y, cuando esté caliente, agrega 2 cucharadas de aceite de oliva. Dora las berenjenas 5 minutos por lado, hasta que estén blandas. Resérvalas y fríe los zucchinis en otra cucharada de aceite 5 minutos, hasta que doren por ambos lados. Repite con los chiles dulces. No cocines de más las verduras en esta etapa: aún tienen que cocinarse en el paso siguiente.",
+      "Rompe las hojas de albahaca con las manos y resérvalas. Cocina la cebolla en la sartén 5 minutos. Agrega el ajo y fríe 1 minuto más. Incorpora el vinagre y el azúcar, y luego los tomates y la mitad de la albahaca. Devuelve las verduras a la sartén con sal y pimienta y cocina 5 minutos. Sirve con albahaca fresca."
+    ]
+  },
+  {
+    "idMeal": "52785",
+    "titulo": "Dal fry (lentejas al estilo indio)",
+    "tituloOriginal": "Dal fry",
+    "descripcion": "Lentejas toor dal cocidas hasta espesar y sazonadas con un sofrito de especias, tomate y ghee. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg",
+    "video": "https://www.youtube.com/embed/J4D855Q9-jg",
+    "ingredientes": [
+      {
+        "nombre": "Lenteja toor dal",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Agua",
+        "cantidad": 2.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Cúrcuma",
+        "cantidad": 0.25,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Ghee",
+        "cantidad": 3,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate en trozos",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Semillas de comino",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Semillas de mostaza",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Hoja de laurel",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Chile verde",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Jengibre",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": "desmenuzado"
+      },
+      {
+        "nombre": "Culantro",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Chile rojo en polvo",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Garam masala",
+        "cantidad": 0.25,
+        "unidad": "cdta",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Lava el toor dal y remójalo en unas 3 tazas de agua al menos una hora. Duplicará su volumen. Escurre el agua.",
+      "Cocina el dal con 2 1/2 tazas de agua, la sal y la cúrcuma a fuego medio-alto hasta que esté suave (unos 30 minutos); debe quedar como una sopa espesa.",
+      "En una sartén, calienta el ghee. Agrega las semillas de comino y de mostaza. Cuando revienten, añade el laurel, el chile verde, el jengibre y el chile en polvo. Revuelve unos segundos.",
+      "Agrega los tomates, la sal y el azúcar; revuelve y cocina hasta que los tomates estén tiernos y deshechos.",
+      "Añade el culantro y el garam masala y cocina cerca de un minuto.",
+      "Vierte el sofrito sobre el dal, mezcla bien y cocina un minuto más.",
+      "Sirve con pan naan."
+    ]
+  },
+  {
+    "idMeal": "53573",
+    "titulo": "Ensalada de papaya verde",
+    "tituloOriginal": "Papaya salad",
+    "descripcion": "Ensalada fresca de papaya verde rallada, zanahoria, tomate cherry y maní. Fuente: TheMealDB.",
+    "categoria": "Vegetariano",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 20,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/7ytdtz1784833420.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Papaya verde",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Jugo de limón",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Zanahoria",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate cherry",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Cebollino",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Maní tostado",
+        "cantidad": 0.25,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Corta, pela y ralla la papaya. Puedes usar un rallador de juliana; si no tienes, usa un rallador común.",
+      "Pela y ralla las zanahorias.",
+      "Pica el cebollino bien pequeño.",
+      "Corta los tomates cherry por la mitad.",
+      "Combina todos los ingredientes con el jugo de limón, el ajo y la sal.",
+      "Termina con el maní por encima."
+    ]
+  },
+  {
+    "idMeal": "53531",
+    "titulo": "Pollo a la naranja",
+    "tituloOriginal": "Chicken in Orange Sauce Recipe (Pollo a la Naranja)",
+    "descripcion": "Piernas de pollo guisadas en una salsa de naranja y azúcar morena, servidas sobre arroz blanco. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 65,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/uuns781783804024.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Piernas de pollo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce rojo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "dientes, picado"
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Jugo de naranja",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar morena",
+        "cantidad": 3,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Culantro",
+        "cantidad": 0.25,
+        "unidad": "tz",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Coloca el aceite de oliva y la mantequilla en una olla grande a fuego medio. Agrega la cebolla picada, el chile dulce rojo y el ajo. Cocina unos 3 minutos, revolviendo seguido, hasta que las verduras estén suaves.",
+      "Agrega las piernas de pollo y sazona con sal y pimienta. Cocina cerca de 1 minuto por lado.",
+      "Añade el caldo de pollo y el jugo de naranja y cocina unos 2 minutos, raspando el fondo de la olla con una cuchara de madera. Agrega el azúcar morena y tapa la olla. Baja el fuego a medio y cocina unos 45 minutos o hasta que el pollo esté cocido.",
+      "Baña el pollo con la salsa y sirve sobre arroz blanco. Decora con culantro fresco."
+    ]
+  },
+  {
+    "idMeal": "53540",
+    "titulo": "Pollo en salsa",
+    "tituloOriginal": "Pollo en Salsa",
+    "descripcion": "Muslos de pollo guisados con achiote, comino y orégano en olla de presión, ideales con arroz y frijoles. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 45,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/4o13oe1784396585.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Muslos de pollo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Orégano",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pasta de achiote",
+        "cantidad": 1.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "dientes, machacado"
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "grande"
+      },
+      {
+        "nombre": "Chile dulce rojo",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Pica el chile dulce, la cebolla y el tomate y reserva. Enciende la olla de presión eléctrica (Instant Pot) en la función de sofreír durante 8 minutos. Agrega un poco de aceite de oliva, la cebolla, el ajo, el tomate, el chile dulce, el comino, el orégano, la sal y la pimienta, y sofríe 4 minutos.",
+      "Añade el pollo y cocina 2 minutos por lado, mezclando seguido. Agrega el caldo de pollo, tapa y programa la olla en alta presión por 20 minutos. Al terminar, libera la presión y, si hace falta, agrega un poco más de sal. Se sirve con parte del caldo sobre arroz con frijoles."
+    ]
+  },
+  {
+    "idMeal": "53520",
+    "titulo": "Pastel de choclo",
+    "tituloOriginal": "Pastel de Choclo",
+    "descripcion": "Pastel chileno de maíz dulce cremoso sobre un pino de carne, pollo, pasas, aceitunas y huevo. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 90,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/47abic1782854326.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "dientes, picado fino"
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Paprika",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Carne molida",
+        "cantidad": 454,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Pollo",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Pasas",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Aceitunas verdes",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Maíz dulce",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Albahaca",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Azúcar",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Coloca los huevos en una olla y cúbrelos con agua. Lleva a ebullición, retira del fuego y deja los huevos en el agua caliente 15 minutos.",
+      "Mientras tanto, calienta aceite en una sartén a fuego medio. Agrega las cebollas, el ajo, una pizca de sal, 1/4 de cucharadita de paprika y pimienta negra; cocina hasta que suelte aroma, unos 2 minutos. Añade la carne, el resto de la cucharadita de sal, el resto de la paprika y pimienta negra; cocina y revuelve hasta que la carne esté casi dorada, unos 5 minutos. Agrega el pollo, las pasas y las aceitunas.",
+      "Saca los huevos del agua caliente, enfríalos bajo el chorro de agua fría y pélalos. Pícalos grueso y agrégalos a la mezcla de carne. Mantén el pino caliente.",
+      "Licúa el maíz con la albahaca en una licuadora o procesador hasta que quede liso. Vierte en una olla a fuego medio. Agrega la mantequilla y cocina revolviendo hasta que espese, de 7 a 10 minutos. Incorpora la leche, 2 cucharaditas de azúcar y sal; cocina hasta que forme una pasta espesa, unos 15 minutos más.",
+      "Precalienta el horno a 175 °C (350 °F).",
+      "Extiende el pino en un molde para hornear. Cubre con la pasta de maíz y espolvorea un poco de azúcar encima.",
+      "Hornea hasta que la superficie esté dorada, unos 20 minutos."
+    ]
+  },
+  {
+    "idMeal": "53143",
+    "titulo": "Pollo español fácil con chorizo y alubias",
+    "tituloOriginal": "Easy Spanish chicken",
+    "descripcion": "Muslos de pollo al horno sobre un sofrito de chorizo, chiles dulces, tomate, aceitunas y alubias. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 70,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/kzxflc1763194887.jpg",
+    "video": "https://www.youtube.com/embed/EusTpzrqYK4",
+    "ingredientes": [
+      {
+        "nombre": "Aceite de oliva extra virgen",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Chorizo",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce rojo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce amarillo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Paprika ahumada",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "dientes"
+      },
+      {
+        "nombre": "Tomate en lata",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Aceitunas verdes",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Alubias",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Muslos de pollo",
+        "cantidad": 8,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "puñado"
+      }
+    ],
+    "pasos": [
+      "Calienta el horno a 200 °C (180 °C con ventilador). Calienta el aceite de oliva en una sartén grande apta para horno a fuego medio y sofríe la cebolla, el chorizo y los chiles dulces con una pizca de sal y pimienta durante 15 minutos, hasta que las verduras se ablanden y el chorizo suelte su grasa. Agrega la paprika y el ajo y cocina unos minutos más hasta que suelte aroma.",
+      "Incorpora el tomate en trozos, las aceitunas y las alubias, mezcla y sazona. Acomoda los muslos de pollo sobre la mezcla y sazónalos bien. Pasa al horno y hornea 40 minutos, hasta que la piel del pollo esté crujiente y la carne cocida y tierna. Esparce el perejil y sirve."
+    ]
+  },
+  {
+    "idMeal": "53533",
+    "titulo": "Lomo de res apanado",
+    "tituloOriginal": "Breaded Steak Recipe (Lomo de Res Apanado)",
+    "descripcion": "Filetes de res macerados en salsa de aliños, empanizados y fritos hasta quedar dorados. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/lmwaf61783805434.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Carne de res",
+        "cantidad": 907,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Salsa de aliños",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Harina",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Pan molido",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para freír"
+      }
+    ],
+    "pasos": [
+      "Coloca cada trozo de carne entre dos láminas grandes de plástico y golpéalo con un mazo hasta que tenga de 0,6 a 1,3 cm de grosor. Pasa la carne aplanada a un recipiente de vidrio, agrega la salsa de aliños y déjala reposar unas 3 horas o toda la noche en el refrigerador.",
+      "Coloca la harina, el pan molido, las especias y el perejil en un plato o un tazón (la harina se usa aparte para el primer y el último paso).",
+      "Cubre la carne por todos los lados con la harina, luego con el huevo batido y por último otra vez con la mezcla de harina y pan molido.",
+      "Una vez empanizados, puedes pasar los filetes directamente a la sartén o colocarlos en capas sobre papel encerado hasta el momento de freír.",
+      "Calienta el aceite en una sartén grande a fuego medio. En cuanto empiece a humear ligeramente, agrega la carne empanizada y fríela de 3 a 4 minutos por lado, hasta que esté dorada. Retírala y colócala sobre un plato con papel absorbente para eliminar el exceso de aceite; sirve."
+    ]
+  },
+  {
+    "idMeal": "53545",
+    "titulo": "Ropa vieja",
+    "tituloOriginal": "Ropa Veija",
+    "descripcion": "Carne de res cocida lentamente en salsa de tomate con chiles dulces y aceitunas, deshebrada y servida con arroz y frijoles. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 210,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/thvft91784576451.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Falda de res",
+        "cantidad": 907,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 3,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "cantidad": 4,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce rojo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce amarillo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 6,
+        "unidad": "u",
+        "nota": "dientes"
+      },
+      {
+        "nombre": "Puré de tomate",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Paprika ahumada",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Orégano",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Vino blanco seco",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate en lata",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Hoja de laurel",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceitunas rellenas de pimiento",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Arroz",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para servir"
+      },
+      {
+        "nombre": "Frijoles negros",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para servir"
+      },
+      {
+        "nombre": "Culantro",
+        "cantidad": 0.25,
+        "unidad": "tz",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Corta la falda de res en 4 trozos rectangulares. Sécalos con papel absorbente y sazónalos por todos lados con 1 1/2 cucharaditas de sal.",
+      "En una olla grande a fuego medio-alto, calienta 2 cucharadas de aceite. Por tandas, dora la carne de 5 a 6 minutos por ambos lados. Pasa a un plato.",
+      "En la misma olla a fuego medio, calienta las 2 cucharadas de aceite restantes. Cocina los chiles dulces, la cebolla y 1 1/2 cucharaditas de sal, revolviendo de vez en cuando, hasta que se ablanden un poco, de 4 a 5 minutos. Agrega el ajo, la pasta de tomate, la paprika, el comino y el orégano, y cocina, revolviendo de vez en cuando, hasta que las verduras estén blandas y las especias suelten aroma, de 1 a 2 minutos más.",
+      "Añade el vino, raspando los trocitos dorados del fondo, y cocina, revolviendo de vez en cuando, hasta que se reduzca a la mitad, unos 2 minutos. Agrega los tomates con su jugo y el laurel. Aplasta los tomates para deshacerlos, acomoda la carne en el guiso y, si hace falta, agrega agua hasta cubrirla; lleva a hervor suave. Baja el fuego a medio-bajo, tapa y cocina hasta que la carne se deshaga fácilmente, de 2 1/2 a 3 horas. Pasa la carne a un plato y deshébrala finamente con 2 tenedores.",
+      "Devuelve la carne deshebrada al guiso. Lleva a hervor suave y cocina, revolviendo, hasta que el líquido se reduzca a una salsa que cubra la carne, de 5 a 10 minutos. Agrega las aceitunas y sazona con sal.",
+      "Sirve la ropa vieja sobre arroz con frijoles negros. Decora con culantro."
+    ]
+  },
+  {
+    "idMeal": "53135",
+    "titulo": "Milanesa",
+    "tituloOriginal": "Milanesa",
+    "descripcion": "Filetes de res empanizados con ajo y perejil, fritos hasta quedar dorados. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 30,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/wdfa171763065079.jpg",
+    "video": "https://www.youtube.com/embed/_G3cyucbB3o",
+    "ingredientes": [
+      {
+        "nombre": "Filete de res",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "batido"
+      },
+      {
+        "nombre": "Pan molido",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "dientes, picado fino"
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Sazona los filetes: sala y pimienta los filetes.",
+      "Empaniza los filetes: pasa cada filete por el huevo y luego cúbrelo con una mezcla de pan molido, perejil y ajo.",
+      "Fríe: calienta aceite en una sartén grande a fuego medio. Fríe los filetes hasta que estén dorados y cocidos, de 3 a 4 minutos por lado.",
+      "Sirve: sirve caliente con rodajas de limón o una ensalada.",
+      "Consejos: para una costra extra crujiente, usa pan molido tipo panko mezclado con queso parmesano rallado fino. Aplana los filetes con suavidad hasta que tengan un grosor parejo para que se cocinen de manera uniforme."
+    ]
+  },
+  {
+    "idMeal": "53539",
+    "titulo": "Picadillo de vainicas",
+    "tituloOriginal": "Picadillo de Vainicas (Green Beans Picadillo)",
+    "descripcion": "Picadillo de vainicas con carne deshebrada, cebolla, ajo y tomillo. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 40,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/2ncui81784396094.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Vainicas",
+        "cantidad": 454,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Falda de res",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "dientes"
+      },
+      {
+        "nombre": "Tomillo",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 0.5,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Agua",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "En una olla mediana a fuego medio, agrega un poco de aceite de oliva, la cebolla, el chile dulce y el ajo, y cocina hasta que la cebolla esté transparente.",
+      "Mientras tanto, pica finamente las vainicas.",
+      "Agrega a la olla la carne deshebrada, las vainicas, el tomillo, la sal y la pimienta, y mezcla bien. Añade el agua, tapa y cocina 15 minutos; destapa y cocina 5 minutos más, o hasta que las vainicas estén blandas."
+    ]
+  },
+  {
+    "idMeal": "53326",
+    "titulo": "Sancocho venezolano",
+    "tituloOriginal": "Venezuelan Sancocho",
+    "descripcion": "Sopa espesa de res con yuca, yautía, ñame, calabaza y maíz, servida con arepas o casabe. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 120,
+    "porcionesBase": 6,
+    "imagen": "https://www.themealdb.com/images/media/meals/8859m71764377470.jpg",
+    "video": "https://www.youtube.com/embed/w6KNOKkcRBs",
+    "ingredientes": [
+      {
+        "nombre": "Jarrete de res",
+        "cantidad": 907,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "pequeño"
+      },
+      {
+        "nombre": "Chile dulce",
+        "cantidad": 0.5,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 8,
+        "unidad": "u",
+        "nota": "dientes, picado"
+      },
+      {
+        "nombre": "Puerro",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Caldo de res",
+        "cantidad": 8,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Chile dulce rojo",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Cebollino",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Maíz dulce",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Yuca",
+        "cantidad": 227,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Yautía",
+        "cantidad": 227,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Ñame",
+        "cantidad": 227,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Calabaza",
+        "cantidad": 227,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Culantro",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "picado"
+      }
+    ],
+    "pasos": [
+      "Coloca el jarrete, 1 cebolla pequeña partida por la mitad, el chile dulce partido por la mitad, 4 dientes de ajo enteros, las hojas verde oscuro del puerro y el caldo en una olla grande. Cocina de 45 a 60 minutos hasta que la carne esté tierna al pincharla con un tenedor. Nota: la carne puede tardar un poco más; no hay problema, solo agrega más tiempo si hace falta.",
+      "Cuando la carne esté tierna, retira los trozos grandes de verdura y los huesos, y deséchalos.",
+      "Agrega la cebolla picada, 2 dientes de ajo picados, los chiles dulces pequeños, el puerro rebanado (la parte verde claro), el cebollino, la yuca y el maíz. Mezcla y cocina tapado a fuego medio de 5 a 8 minutos, hasta que la yuca empiece a ablandarse. Nota: la yuca puede tardar un poco más; solo agrega más tiempo si es necesario.",
+      "Añade la yautía, el ñame y la calabaza. Mezcla. Cocina tapado a fuego medio de 5 a 6 minutos, hasta que todos los tubérculos estén tiernos. Nota: no los cocines de más o se deshacen.",
+      "Prueba y agrega sal si hace falta. Añade el culantro y los 2 dientes de ajo restantes, picados. Mezcla y deja hervir suavemente 2 minutos más.",
+      "Sirve caliente en tazones grandes, repartiendo la carne y las verduras de manera pareja. Agrega un chorrito de jugo de limón o salsa picante si lo deseas. Acompaña con arepas o casabe (pan de yuca)."
+    ]
+  },
+  {
+    "idMeal": "52770",
+    "titulo": "Espagueti a la boloñesa",
+    "tituloOriginal": "Spaghetti Bolognese",
+    "descripcion": "Espagueti con una salsa de carne molida, tomate, champiñones y orégano cocida a fuego lento. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
+    "video": "https://www.youtube.com/embed/-gF8d-fitkU",
+    "ingredientes": [
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "diente"
+      },
+      {
+        "nombre": "Carne molida",
+        "cantidad": 500,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Champiñones",
+        "cantidad": 90,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Orégano",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 400,
+        "unidad": "g",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Caldo de res",
+        "cantidad": 300,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Puré de tomate",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Salsa inglesa",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Espagueti",
+        "cantidad": 350,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Queso parmesano",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "para cubrir"
+      }
+    ],
+    "pasos": [
+      "Pon la cebolla y el aceite en una olla grande y fríe a fuego bastante alto de 3 a 4 minutos. Agrega el ajo y la carne molida y fríe hasta que ambos se doren. Añade los champiñones y las hierbas y cocina un par de minutos más.",
+      "Incorpora los tomates, el caldo de res, el puré de tomate (o salsa de tomate), la salsa inglesa y la sazón. Lleva a ebullición, baja el fuego, tapa y cocina a fuego lento 30 minutos, revolviendo de vez en cuando.",
+      "Mientras tanto, cocina el espagueti en una olla grande con agua hirviendo con sal, según las instrucciones del paquete. Escurre bien, pásale agua caliente, devuélvelo a la olla y, si quieres, agrégale un chorrito de aceite de oliva; luego mézclalo con la salsa de carne. Sirve en platos calientes y pasa queso parmesano para espolvorear por encima."
+    ]
+  },
+  {
+    "idMeal": "52982",
+    "titulo": "Espagueti a la carbonara",
+    "tituloOriginal": "Spaghetti alla Carbonara",
+    "descripcion": "Pasta con tocino crujiente, yemas y queso pecorino, sin crema. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 30,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+    "video": "https://www.youtube.com/embed/_T6jkRvhlkk",
+    "ingredientes": [
+      {
+        "nombre": "Espagueti",
+        "cantidad": 320,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Yemas de huevo",
+        "cantidad": 6,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "según se necesite"
+      },
+      {
+        "nombre": "Tocino",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Queso pecorino",
+        "cantidad": 50,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "según se necesite"
+      }
+    ],
+    "pasos": [
+      "Pon una olla grande con agua a hervir.",
+      "Pica finamente la panceta (o el tocino), 150 g en total, después de quitarle la corteza. Ralla finamente el queso pecorino (50 g); si quieres, mezcla con un poco de parmesano rallado.",
+      "Bate las yemas en un tazón mediano y sazona con un poco de pimienta negra recién molida. Reserva todo.",
+      "Agrega 1 cucharadita de sal al agua hirviendo y añade el espagueti (320 g). Cuando el agua vuelva a hervir, cocina a hervor constante, tapado, 10 minutos o hasta que esté al dente (recién cocido).",
+      "Machaca 2 dientes de ajo pelados con la hoja de un cuchillo, solo para magullarlos.",
+      "Mientras se cocina el espagueti, fríe la panceta con el ajo. Derrite 50 g de mantequilla sin sal en una sartén grande o wok y, en cuanto se derrita, agrega la panceta y el ajo.",
+      "Cocina a fuego medio unos 5 minutos, revolviendo seguido, hasta que la panceta esté dorada y crujiente. El ajo ya habrá dado su sabor: sácalo con una espumadera y deséchalo.",
+      "Mantén el fuego bajo bajo la panceta. Cuando la pasta esté lista, sácala del agua con unas pinzas y pásala a la sartén con la panceta. No te preocupes si cae un poco de agua (es lo que se busca) y no tires aún el agua de la pasta.",
+      "Mezcla la mayor parte del queso con los huevos, reservando un puñado para espolvorear al final.",
+      "Retira la sartén del fuego. Vierte rápidamente la mezcla de huevo y queso. Con las pinzas o un tenedor largo, levanta el espagueti para que se mezcle con el huevo, que espesa pero no se cuaja, y todo quede cubierto.",
+      "Agrega agua de cocción de la pasta para mantener la salsa cremosa (unas cucharadas bastan). No debe quedar mojado, solo húmedo. Sazona con un poco de sal si hace falta.",
+      "Con un tenedor largo, enrolla la pasta sobre el plato. Sirve de inmediato con el queso restante y un poco de pimienta negra molida. Si el plato se seca antes de servir, agrega un chorrito de agua caliente de la pasta para devolverle el brillo."
+    ]
+  },
+  {
+    "idMeal": "53064",
+    "titulo": "Fettuccine Alfredo",
+    "tituloOriginal": "Fettuccine Alfredo",
+    "descripcion": "Pasta en una salsa cremosa de mantequilla, crema y queso parmesano. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 25,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/0jv5gx1661040802.jpg",
+    "video": "https://www.youtube.com/embed/LPPcNPdq_j4",
+    "ingredientes": [
+      {
+        "nombre": "Fettuccine",
+        "cantidad": 454,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Crema para batir",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Queso parmesano",
+        "cantidad": 0.5,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Cocina la pasta según las instrucciones del paquete en una olla grande con agua hirviendo y sal. Coloca la crema para batir y la mantequilla en una sartén grande a fuego medio hasta que la crema burbujee y la mantequilla se derrita. Incorpora el queso parmesano batiendo y sazona con sal y pimienta negra. Deja que la salsa espese un poco, agrega la pasta y mezcla hasta que quede cubierta de salsa. Decora con perejil y está lista."
+    ]
+  },
+  {
+    "idMeal": "53147",
+    "titulo": "Arroz con langostinos y calamar",
+    "tituloOriginal": "Arroz con gambas y calamar",
+    "descripcion": "Arroz estilo paella con azafrán, calamar y langostinos, cocinado en una sola sartén. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 50,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/jc6oub1763196663.jpg",
+    "video": "https://www.youtube.com/embed/nFFp0ebOlOo",
+    "ingredientes": [
+      {
+        "nombre": "Langostinos",
+        "cantidad": 24,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "pequeño"
+      },
+      {
+        "nombre": "Hoja de laurel",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Azafrán",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "pizca"
+      },
+      {
+        "nombre": "Arroz para paella",
+        "cantidad": 450,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Puré de tomate",
+        "cantidad": 2,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Vino blanco",
+        "cantidad": 200,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Caldo de mariscos",
+        "cantidad": 650,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Calamar",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "mediano"
+      }
+    ],
+    "pasos": [
+      "Pela y quita el hilo intestinal a la mayoría de los langostinos (la pescadería puede hacerlo por ti) y deja unos pocos enteros para decorar, si quieres. Calienta el aceite de oliva en una sartén grande o cacerola baja resistente al fuego a fuego medio-bajo y sofríe la cebolla 5 minutos hasta que se ablande. Agrega el laurel, el azafrán, el arroz y el puré de tomate, y cocina de 1 a 2 minutos más, revolviendo.",
+      "Vierte el vino y deja burbujear de 1 a 2 minutos; luego añade el caldo de mariscos y 150 ml de agua. Cocina 5 minutos, agrega el calamar, sazona bien y mezcla. Lleva a ebullición, tapa y baja a fuego muy suave. Cocina 12 minutos más, añadiendo un poco más de agua si la mezcla se ve seca.",
+      "Destapa y mezcla los langostinos pelados; coloca los enteros sobre el arroz. Tapa de nuevo y cocina a fuego suave de 5 a 6 minutos más, hasta que los langostinos estén rosados y bien cocidos. Deja reposar un par de minutos y sirve directamente de la sartén."
+    ]
+  },
+  {
+    "idMeal": "53144",
+    "titulo": "Gambas al ajillo",
+    "tituloOriginal": "Gambas al ajillo",
+    "descripcion": "Langostinos salteados en aceite de oliva con ajo y chile picante. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 15,
+    "porcionesBase": 2,
+    "imagen": "https://www.themealdb.com/images/media/meals/ze8uwg1763196123.jpg",
+    "video": "https://www.youtube.com/embed/2tZlO8vNMtk",
+    "ingredientes": [
+      {
+        "nombre": "Langostinos",
+        "cantidad": 12,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 100,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Chile picante",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": "picado"
+      }
+    ],
+    "pasos": [
+      "Pela los langostinos dejando las colas y, con un palillo, retírales el hilo intestinal. Si usas una sartén en lugar de una cazuela de barro, puedes cocinarlos con cáscara. Sazona con un poco de sal marina.",
+      "Pon el ajo, el aceite de oliva y los chiles en una cazuela de barro resistente al fuego o en una sartén a fuego alto. Cuando el ajo empiece a dorarse, agrega los langostinos y cocina de 1 a 2 minutos por lado, hasta que apenas estén rosados. Espolvorea con el perejil picado y un poco de pimienta negra recién molida y sirve de inmediato. Si usas una cazuela de barro, puedes llevarla directamente a la mesa, pero con cuidado: el aceite y el barro siguen calientes varios minutos."
+    ]
+  },
+  {
+    "idMeal": "53151",
+    "titulo": "Paella",
+    "tituloOriginal": "Paella",
+    "descripcion": "Paella con chorizo, calamar, langostinos, mejillones y azafrán, cocinada en una sola sartén ancha. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Difícil",
+    "tiempoPrepMin": 75,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/9bl20p1763248192.jpg",
+    "video": "https://www.youtube.com/embed/vNBuXsTY15E",
+    "ingredientes": [
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 3,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Camarones tigre",
+        "cantidad": 10,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Perejil",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un manojo"
+      },
+      {
+        "nombre": "Jerez seco",
+        "cantidad": 100,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Mejillones",
+        "cantidad": 500,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Azafrán",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "una pizca"
+      },
+      {
+        "nombre": "Chorizo",
+        "cantidad": 150,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "dientes"
+      },
+      {
+        "nombre": "Calamar",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "mediano"
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Arroz para paella",
+        "cantidad": 250,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Habas",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Ralladura de limón",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Calienta 1 cucharada del aceite en una sartén ancha y baja. Agrega las cabezas de los langostinos y los tallos del perejil y fríe hasta que las cabezas se pongan rosadas; luego macháncalas con un prensapapas. Vierte el jerez (o vino) y 300 ml de agua, sazona con sal y cocina a fuego suave 10 minutos para hacer un caldo, machacando las cabezas mientras se cocinan.",
+      "Esparce los mejillones en la sartén, tápala sin ajustar con una tapa o un paño de cocina y ponla a fuego alto de 3 a 4 minutos, hasta que los mejillones apenas se abran. Revuelve para soltar sus jugos y vierte el contenido en un colador sobre un tazón grande que contenga el azafrán. Deja que el azafrán infusione en el caldo: necesitarás 700 ml en total, así que completa con agua si hace falta y revuelve bien. Saca los mejillones del colador y resérvalos.",
+      "Limpia la sartén y agrega el resto del aceite. Sofríe el chorizo hasta que suelte su grasa, añade la cebolla y el ajo y cocina hasta que se ablanden. Agrega el calamar y dale vuelta hasta que se ponga blanco. Añade los tomates y cocina un minuto; vierte la mayor parte del caldo, revuelve bien y lleva a ebullición. Esparce el arroz sobre el caldo, revuelve bien una sola vez y hierve con fuerza 5 minutos. Baja el fuego al mínimo y cocina lentamente 10 minutos sin revolver, hasta que el arroz absorba casi todo el líquido.",
+      "Acomoda las colas de los langostinos en el arroz y cocina 5 minutos, dándoles vuelta, hasta que estén cocidas. Mezcla los mejillones y las habas (o arvejas). Prueba el arroz: si aún está algo crudo pero la sartén está seca, agrega un chorrito más de caldo y sigue cocinando; si está muy caldoso, sube el fuego para evaporar el resto del caldo.",
+      "Cuando el arroz esté recién cocido, apaga el fuego y cubre con un paño de cocina unos minutos. Esparce las hojas de perejil y la ralladura de limón, y sazona con sal ahumada si quieres. Mezcla todo una sola vez y sirve directamente de la sartén, con rodajas de limón a un lado."
+    ]
+  },
+  {
+    "idMeal": "53528",
+    "titulo": "Chuletas de cerdo a la criolla",
+    "tituloOriginal": "Chuletas de Cerdo a la Criolla (Pork Chops in Creole Sauce)",
+    "descripcion": "Chuletas marinadas con mostaza, comino y ajo, guisadas con cebolla y tomate. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 45,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/087fu71783802698.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Chuletas de cerdo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "dientes, machacado"
+      },
+      {
+        "nombre": "Mostaza",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "cantidad suficiente para cubrir las chuletas"
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Tomate",
+        "cantidad": 3,
+        "unidad": "u",
+        "nota": "en cubos"
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "en rodajas"
+      },
+      {
+        "nombre": "Culantro",
+        "cantidad": 0.25,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta negra",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Coloca las chuletas en una bolsa plástica con cierre. Agrega la mostaza, el comino, el ajo, la sal y la pimienta.",
+      "Refrigera 1 hora o toda la noche, procurando que las chuletas queden cubiertas de manera pareja.",
+      "En una sartén grande, calienta el aceite a fuego medio. Coloca las chuletas y cocina 3 minutos por lado. Retira la carne de la sartén y resérvala en un plato caliente.",
+      "Agrega las cebollas y los tomates a la misma sartén donde se doró la carne, con una cucharada más de aceite si hace falta. Cocina a fuego alto unos 5 a 7 minutos, revolviendo seguido para que no se quemen, hasta que estén dorados y blandos. Devuelve las chuletas, tapa, baja el fuego a medio-bajo y cocina a fuego suave hasta que la carne esté tierna y apenas rosada en el centro, unos 15 minutos. Reparte las chuletas en los platos, baña con la salsa, agrega el culantro y sirve de inmediato."
+    ]
+  },
+  {
+    "idMeal": "53136",
+    "titulo": "Choripán",
+    "tituloOriginal": "Choripán",
+    "descripcion": "Sándwich argentino de chorizo a la parrilla con salsa chimichurri. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 25,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/5i25sg1763075353.jpg",
+    "video": "https://www.youtube.com/embed/FNrU5mQKFOE",
+    "ingredientes": [
+      {
+        "nombre": "Chorizo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Pan rústico",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Salsa chimichurri",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": "un chorrito"
+      }
+    ],
+    "pasos": [
+      "Asa los chorizos: cocínalos en la parrilla o en una sartén hasta que estén bien cocidos, de 10 a 15 minutos.",
+      "Prepara los panes: corta los panes y tuéstalos ligeramente en la parrilla o en una sartén.",
+      "Arma el sándwich: corta cada chorizo a lo largo y colócalo en un pan. Cubre con una buena cantidad de salsa chimichurri.",
+      "Sirve: disfruta de inmediato, bien caliente.",
+      "Consejos: asa el chorizo lentamente a fuego medio para que la piel no reviente y se cocine parejo por dentro. Tuesta el pan en la parrilla para que absorba parte del sabor del chorizo."
+    ]
+  },
+  {
+    "idMeal": "53134",
+    "titulo": "Empanadas argentinas",
+    "tituloOriginal": "Empanadas",
+    "descripcion": "Empanadas horneadas rellenas de carne molida, cebolla, huevo y aceitunas. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Intermedio",
+    "tiempoPrepMin": 80,
+    "porcionesBase": 12,
+    "imagen": "https://www.themealdb.com/images/media/meals/q99te31763075494.jpg",
+    "video": "https://www.youtube.com/embed/RRNVLC6IAv4",
+    "ingredientes": [
+      {
+        "nombre": "Harina",
+        "cantidad": 500,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Mantequilla",
+        "cantidad": 200,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Agua",
+        "cantidad": 120,
+        "unidad": "ml",
+        "nota": null
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Carne molida",
+        "cantidad": 500,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 2,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Huevo",
+        "cantidad": 4,
+        "unidad": "u",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Aceitunas verdes",
+        "cantidad": 100,
+        "unidad": "g",
+        "nota": null
+      },
+      {
+        "nombre": "Comino",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Paprika",
+        "cantidad": 1,
+        "unidad": "cdta",
+        "nota": null
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 1,
+        "unidad": "ag",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Prepara la masa: mezcla la harina y la sal en un tazón grande. Agrega la mantequilla y mézclala con los dedos hasta obtener una textura arenosa. Añade el agua poco a poco, mezclando hasta formar una masa. Envuelve y refrigera 30 minutos.",
+      "Prepara el relleno: cocina las cebollas en una sartén hasta que estén transparentes. Agrega la carne molida y cocina hasta que se dore. Incorpora las especias y retira del fuego. Una vez fría, mezcla con los huevos y las aceitunas.",
+      "Arma las empanadas: estira la masa y corta círculos. Coloca una cucharada de relleno en cada uno, dobla y sella los bordes.",
+      "Cocina: hornea a 200 °C (400 °F) de 20 a 25 minutos, o hasta que estén doradas.",
+      "Consejos: para una masa más hojaldrada, agrega una cucharada de vinagre a la mezcla; así se evita que se forme el gluten. Sella los bordes con un tenedor para que no se abran al hornear o freír."
+    ]
+  },
+  {
+    "idMeal": "53521",
+    "titulo": "Porotos granados (guiso chileno de frijoles)",
+    "tituloOriginal": "Porotos Granados (Chilean Bean Stew)",
+    "descripcion": "Guiso espeso chileno de frijoles, calabaza y maíz con albahaca. Fuente: TheMealDB.",
+    "categoria": "Platos fuertes",
+    "dificultad": "Fácil",
+    "tiempoPrepMin": 60,
+    "porcionesBase": 4,
+    "imagen": "https://www.themealdb.com/images/media/meals/nimml81782855200.jpg",
+    "video": null,
+    "ingredientes": [
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 1,
+        "unidad": "cda",
+        "nota": null
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      },
+      {
+        "nombre": "Calabaza",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Frijoles blancos",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": "en lata"
+      },
+      {
+        "nombre": "Frijoles lima",
+        "cantidad": 1,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "cantidad": 3,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Maíz dulce",
+        "cantidad": 2,
+        "unidad": "tz",
+        "nota": null
+      },
+      {
+        "nombre": "Albahaca",
+        "cantidad": 2,
+        "unidad": "cda",
+        "nota": "picado"
+      },
+      {
+        "nombre": "Chile banana",
+        "cantidad": 1,
+        "unidad": "u",
+        "nota": null
+      }
+    ],
+    "pasos": [
+      "Calienta el aceite de oliva en una olla a fuego medio; agrega la cebolla y tapa. Cocina hasta que esté suave y transparente, unos 5 minutos. Añade la calabaza, los frijoles blancos y los frijoles lima, y vierte el caldo de pollo encima. Tapa y cocina hasta que la calabaza esté tierna y empiece a deshacerse, de 30 a 45 minutos.",
+      "Incorpora el maíz y la albahaca; cocina hasta que el guiso tenga la consistencia de masa de panqueques, unos 10 minutos más. Espolvorea el chile banana picado sobre cada porción al servir."
+    ]
+  }
+]

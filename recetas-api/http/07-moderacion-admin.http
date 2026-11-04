@@ -1,0 +1,113 @@
+@host = http://localhost:5000
+
+# @name loginAdmin
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "admin@recetas.com", "password": "Admin123*" }
+
+###
+@admin = {{loginAdmin.response.body.$.token}}
+
+# @name loginMaria
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "maria@correo.com", "password": "Maria123*" }
+
+###
+@maria = {{loginMaria.response.body.$.token}}
+
+### ---------- Denunciar y moderar ----------
+
+### MD-01 Denunciar una receta O un comentario (motivo: SPAM, OFENSIVO, INCORRECTO, DERECHOS_AUTOR, OTRO)
+POST {{host}}/api/reportes-contenido
+Authorization: Bearer {{maria}}
+Content-Type: application/json
+
+{ "recetaId": 1, "motivo": "INCORRECTO", "descripcion": "Las cantidades no coinciden." }
+
+### MD-02 Cola de denuncias pendientes (más antigua primero)
+GET {{host}}/api/moderacion/reportes
+Authorization: Bearer {{admin}}
+
+### MD-03 Detalle: contenido, otras denuncias e historial
+GET {{host}}/api/moderacion/reportes/1
+Authorization: Bearer {{admin}}
+
+### MD-04 [T] Resolver: MANTENER o MODERAR (retira el contenido, registra la acción y cierra las demás denuncias)
+PUT {{host}}/api/moderacion/reportes/1/resolver
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "decision": "MODERAR", "resolucion": "Se confirmó el error en las cantidades." }
+
+### MD-05 [T] Retirar una receta publicada
+POST {{host}}/api/moderacion/recetas/2/retirar
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "motivo": "Incumple las normas de la comunidad." }
+
+### MD-06 [T] Restaurar una receta moderada
+POST {{host}}/api/moderacion/recetas/2/restaurar
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "motivo": "Se corrigió el contenido." }
+
+### MD-07 [T] / MD-08 [T] Ocultar y volver a mostrar un comentario
+POST {{host}}/api/moderacion/comentarios/1/retirar
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "motivo": "Lenguaje ofensivo." }
+
+###
+POST {{host}}/api/moderacion/comentarios/1/restaurar
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "motivo": "Era válido." }
+
+### MD-09 Historial de moderación (filtros: recetaId, comentarioId, desde, hasta)
+GET {{host}}/api/moderacion/historial?desde=2026-01-01
+Authorization: Bearer {{admin}}
+
+### ---------- Administración ----------
+
+### AD-01 Categorías (todas, con cantidad de recetas)
+GET {{host}}/api/admin/categorias
+Authorization: Bearer {{admin}}
+
+### AD-02 Crear categoría
+POST {{host}}/api/admin/categorias
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "nombre": "Sopas", "descripcion": "Caldos y sopas" }
+
+### AD-03 Editar categoría
+PUT {{host}}/api/admin/categorias/7
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "nombre": "Sopas y caldos", "descripcion": "Para días fríos" }
+
+### AD-04 Desactivar (no toca sus recetas; ya no se puede publicar en ella)
+PUT {{host}}/api/admin/categorias/7/estado
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "activo": false }
+
+### AD-05 Usuarios (filtros: q, estado=activo|suspendido, rol=ADMIN|USUARIO)
+GET {{host}}/api/admin/usuarios?q=maria
+Authorization: Bearer {{admin}}
+
+### AD-06 Suspender (su token deja de servir de inmediato; no a sí mismo ni al último admin)
+PUT {{host}}/api/admin/usuarios/3/estado
+Authorization: Bearer {{admin}}
+Content-Type: application/json
+
+{ "activo": false }

@@ -1,0 +1,38 @@
+# Compilación
+bin/
+obj/
+publish/
+*.dll
+*.pdb
+
+# Archivos subidos en ejecución (volumen de Docker / pruebas)
+uploads/
+
+# IDE y usuario
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.rsuser
+
+# Pruebas y cobertura
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# Secretos y entorno local
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Documentación: solo se sube README.md; los demás .md se ignoran
+*.md
+!README.md

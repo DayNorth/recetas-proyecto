@@ -1,0 +1,44 @@
+@host = http://localhost:5000
+
+# @name loginAdmin
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "admin@recetas.com", "password": "Admin123*" }
+
+###
+@admin = {{loginAdmin.response.body.$.token}}
+
+### RP-01 Catálogo de los 10 reportes (pregunta, cómo leerlo, acción sugerida y parámetros)
+GET {{host}}/api/reportes
+Authorization: Bearer {{admin}}
+
+### RP-02 Ejecutar un reporte. Rango por fechas (inicio/fin) o por meses (mesInicio/mesFin = AAAA-MM); máximo 24 meses
+# Tipos: MAS_VISTAS, MAS_GUSTADAS, MAS_BUSCADAS, RECETAS_MAS_BUSCADAS, MEJOR_CALIFICADAS, POR_CATEGORIA,
+#        TENDENCIA_MENSUAL, BUSQUEDAS_SIN_RESULTADO, CONVERSION, OFERTA_DEMANDA
+GET {{host}}/api/reportes/MAS_VISTAS?mesInicio=2026-05&mesFin=2026-10&limite=5
+Authorization: Bearer {{admin}}
+
+###
+GET {{host}}/api/reportes/TENDENCIA_MENSUAL?mesInicio=2026-05&mesFin=2026-10
+Authorization: Bearer {{admin}}
+
+###
+GET {{host}}/api/reportes/CONVERSION?inicio=2026-05-01&fin=2026-10-31&minVisitas=30
+Authorization: Bearer {{admin}}
+
+### RP-03 Descargar: formato=csv (UTF-8 con BOM, separador ;), xlsx o pdf. Queda en la bitácora.
+GET {{host}}/api/reportes/MAS_VISTAS/descargar?mesInicio=2026-05&mesFin=2026-10&formato=pdf
+Authorization: Bearer {{admin}}
+
+###
+GET {{host}}/api/reportes/BUSQUEDAS_SIN_RESULTADO/descargar?mesInicio=2026-05&mesFin=2026-10&formato=xlsx
+Authorization: Bearer {{admin}}
+
+### RP-04 Tablero de decisiones (sin rango: los 6 meses completos anteriores al actual)
+GET {{host}}/api/reportes/tablero?mesInicio=2026-05&mesFin=2026-10
+Authorization: Bearer {{admin}}
+
+### RP-05 Bitácora de reportes descargados
+GET {{host}}/api/reportes/descargas
+Authorization: Bearer {{admin}}

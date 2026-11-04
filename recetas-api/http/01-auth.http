@@ -1,0 +1,31 @@
+@host = http://localhost:5000
+
+### AU-01 Registro (201; 409 si el correo existe; 400 si la contraseña es débil)
+POST {{host}}/api/auth/registro
+Content-Type: application/json
+
+{
+  "nombre": "Ana",
+  "apellidos": "Mora Solís",
+  "correo": "ana@correo.com",
+  "password": "Clave1234",
+  "confirmacionPassword": "Clave1234"
+}
+
+### AU-02 Login (límite: 5 por minuto por IP)
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "maria@correo.com", "password": "Maria123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### AU-03 Usuario del token
+GET {{host}}/api/auth/me
+Authorization: Bearer {{token}}
+
+### AU-04 Cerrar sesión (el mismo token da 401 después)
+POST {{host}}/api/auth/logout
+Authorization: Bearer {{token}}

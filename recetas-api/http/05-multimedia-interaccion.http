@@ -1,0 +1,73 @@
+@host = http://localhost:5000
+
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "jose@correo.com", "password": "Jose123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### ---------- Multimedia (solo el autor de la receta; ejemplo con una receta de José) ----------
+
+### MM-01 Video de YouTube (se convierte a /embed/). Para una imagen o PDF use el campo "archivo".
+POST {{host}}/api/recetas/1/multimedia
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="url"
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+--lim--
+
+### MM-03 [T] Definir portada (solo imágenes)
+PUT {{host}}/api/recetas/1/multimedia/1/portada
+Authorization: Bearer {{token}}
+
+### MM-02 Borrar archivo (si era la portada, la siguiente imagen pasa a serlo)
+DELETE {{host}}/api/recetas/1/multimedia/1
+Authorization: Bearer {{token}}
+
+### ---------- Interacción ----------
+
+### IN-01 / IN-02 Me gusta (idempotente; devuelve el total)
+PUT {{host}}/api/recetas/1/me-gusta
+Authorization: Bearer {{token}}
+
+###
+DELETE {{host}}/api/recetas/1/me-gusta
+Authorization: Bearer {{token}}
+
+### IN-03 / IN-04 Favorito
+PUT {{host}}/api/recetas/1/favorito
+Authorization: Bearer {{token}}
+
+###
+DELETE {{host}}/api/recetas/1/favorito
+Authorization: Bearer {{token}}
+
+### IN-05 Mis favoritos (las recetas no disponibles salen con disponible = false)
+GET {{host}}/api/favoritos
+Authorization: Bearer {{token}}
+
+### IN-06 Comentarios visibles + promedio (público)
+GET {{host}}/api/recetas/1/comentarios
+
+### IN-07 Calificar / comentar (al menos uno; no se puede en la propia receta)
+PUT {{host}}/api/recetas/3/calificacion
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "calificacion": 5, "comentario": "Quedó esponjoso." }
+
+### IN-08 Borrar mi calificación
+DELETE {{host}}/api/recetas/3/calificacion
+Authorization: Bearer {{token}}
+
+### IN-09 Compartir (público; 10 por minuto por IP). redId: 1 Facebook, 2 WhatsApp, 3 X, 4 Instagram
+POST {{host}}/api/recetas/1/compartir
+Content-Type: application/json
+
+{ "redId": 2 }

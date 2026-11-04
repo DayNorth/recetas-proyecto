@@ -46,15 +46,9 @@ Son credenciales de desarrollo. Los valores por defecto de la base y del JWT est
 - Consultar a mano: `docker compose exec db psql -U recetas -d recetas_db`, o DBeaver en `localhost:5433`.
 - Ejemplo de reporte: `SELECT * FROM sp_reporte_mas_vistas('2026-05-01','2026-10-31',5);`
 
-## Modelo de EF Core (no hace falta *scaffold*)
-Las entidades y el `DbContext` ya están en el repositorio (`recetas-api/Infraestructura/Persistencia/`). Para levantar, probar o desarrollar **no se genera nada**.
-
-Si cambia el esquema de `db/`, lo más simple es editar a mano la entidad afectada y el `RecetasDbContext`, y correr las pruebas del API para confirmar que coinciden con la base.
-
 ## Pruebas
 ```powershell
 cd recetas-api; dotnet test recetas-api.Tests   # necesita Docker: levanta un PostgreSQL 18 desechable
-cd recetas-spa; npm test                        # Vitest (login y crear receta)
 ```
 Documentación interactiva del API: http://localhost:5000/scalar. Ejemplos de cada endpoint: `recetas-api/http/`.
 
@@ -66,11 +60,6 @@ cd recetas-spa; npm install; npm run dev # http://localhost:5173 (el proxy enví
 ```
 
 ## Entregables (carpeta `entregables/`)
-- `documentos/plan-implementacion-avance2.md`: **plan del Avance 2** (API al 100 % por módulo y endpoint, SPA al 50 % por pantalla, calendario, pruebas y riesgos).
-- `documentos/arquitectura-y-plan-avance2.md`: arquitectura, decisiones y transacción "crear receta".
-- `documentos/comparacion-avance1-vs-avance2.md`: comparación con la propuesta del Avance 1.
-- `Recetas DB - Diagrama ER y Diccionario de Datos (v2 PostgreSQL).docx`: DER y diccionario de datos (23 tablas).
-- `diagramas/`: DER, diagrama de flujo y casos de uso (`.mmd`/`.puml` son el código fuente; `.png`/`.svg`, las imágenes).
-- `requerimientos/`: matrices de requerimientos funcionales y no funcionales (`Matrices_de_Requerimientos.docx` para pegar en el documento; `fuente/` las regenera con `node generar.mjs`).
+- `diagramas/`: diagrama entidad-relación (`diagrama_er_recetas_db_v2`, 23 tablas), diagrama de flujo (`diagrama_flujo_v2`) y casos de uso (`Diagrama-CasosDeUso_v2`), en `.png` y `.svg`.
 
-En la raíz quedan los insumos originales: `G3_Programacion_Web_Avance_1.pdf`, `instrucciones-avance2.md` y `Diagrama-CasosDeUso.png`.
+En la raíz quedan los insumos originales: `G3_Programacion_Web_Avance_1.pdf` y `Diagrama-CasosDeUso.png`.

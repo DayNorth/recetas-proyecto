@@ -1,0 +1,93 @@
+@host = http://localhost:5000
+
+### ---------- Noticias ----------
+
+### NT-01 Listado público (el ADMIN puede agregar ?incluirNoPublicadas=true)
+GET {{host}}/api/noticias
+
+### NT-02 Detalle
+GET {{host}}/api/noticias/1
+
+# @name loginAdmin
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "admin@recetas.com", "password": "Admin123*" }
+
+###
+@admin = {{loginAdmin.response.body.$.token}}
+
+### NT-03 Crear (multipart; imagen opcional en el campo "Imagen")
+POST {{host}}/api/noticias
+Authorization: Bearer {{admin}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="Titulo"
+
+Truco de la semana
+--lim
+Content-Disposition: form-data; name="Contenido"
+
+Deje reposar la masa 10 minutos antes de hornear.
+--lim--
+
+### NT-04 Editar / despublicar (Publicada=false)
+PUT {{host}}/api/noticias/1
+Authorization: Bearer {{admin}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="Titulo"
+
+Truco de la semana (editado)
+--lim
+Content-Disposition: form-data; name="Contenido"
+
+Texto nuevo.
+--lim
+Content-Disposition: form-data; name="Publicada"
+
+true
+--lim--
+
+### NT-05 Despublicar (no borra)
+DELETE {{host}}/api/noticias/1
+Authorization: Bearer {{admin}}
+
+### ---------- Listas de compras ----------
+
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "jose@correo.com", "password": "Jose123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### LS-01 [T] Generar lista desde una receta con otras porciones
+POST {{host}}/api/listas
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "recetaId": 1, "porciones": 8, "nombre": "Para el domingo" }
+
+### LS-02 Mis listas (?estado=ACTIVA|COMPLETADA)
+GET {{host}}/api/listas
+Authorization: Bearer {{token}}
+
+### LS-03 Detalle de una lista
+GET {{host}}/api/listas/1
+Authorization: Bearer {{token}}
+
+### LS-04 [T] Marcar un ítem; si todos quedan comprados la lista pasa a COMPLETADA
+PATCH {{host}}/api/listas/1/items/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "comprado": true }
+
+### LS-05 Borrar lista
+DELETE {{host}}/api/listas/1
+Authorization: Bearer {{token}}

@@ -1,0 +1,52 @@
+@host = http://localhost:5000
+
+### ---------- Catálogos (públicos) ----------
+
+### CT-01 Categorías activas
+GET {{host}}/api/categorias
+
+### CT-02 Dificultades
+GET {{host}}/api/dificultades
+
+### CT-03 Unidades (escalable = false para "al gusto")
+GET {{host}}/api/unidades
+
+### CT-04 Redes sociales
+GET {{host}}/api/redes-sociales
+
+### CT-05 Autocompletado de ingredientes (prefijo, máximo 20)
+GET {{host}}/api/ingredientes?q=arr
+
+### ---------- Perfil (requiere sesión) ----------
+
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "maria@correo.com", "password": "Maria123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### PF-01 Ver perfil
+GET {{host}}/api/perfil
+Authorization: Bearer {{token}}
+
+### PF-02 Actualizar (el correo, la contraseña y el rol no cambian)
+PUT {{host}}/api/perfil
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "nombre": "María", "apellidos": "Rodríguez", "descripcion": "Cocinera aficionada" }
+
+### PF-03 Foto (JPG, PNG o WebP, máx. 2 MB). La respuesta trae fotoPerfil; se ve en /uploads/{fotoPerfil}
+POST {{host}}/api/perfil/foto
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="foto"; filename="foto.png"
+Content-Type: image/png
+
+< ./foto.png
+--lim--

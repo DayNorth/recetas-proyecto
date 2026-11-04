@@ -1,0 +1,70 @@
+# Entorno local completo: PostgreSQL + recetas-api (ASP.NET Core 10) + recetas-spa (React + nginx)
+#
+#   docker compose up -d --build     levanta todo
+#   docker compose down              detiene (conserva los datos)
+#   docker compose down -v           detiene y BORRA la base (se recarga 01, 02 y 03)
+#
+#   SPA:  http://localhost:8080        API: http://localhost:5000/api/health
+#   BD (DBeaver / psql desde el equipo): localhost:5433, usuario recetas, base recetas_db
+#
+# Las credenciales de abajo son SOLO de desarrollo; se pueden cambiar con un
+# archivo .env (ver .env.example).
+name: recetas
+
+services:
+  db:
+    container_name: recetas-db
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: recetas_db
+      POSTGRES_USER: recetas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-recetas_dev}
+      TZ: America/Costa_Rica
+    ports:
+      - "5433:5432"
+    volumes:
+      # postgres:18 guarda los datos en /var/lib/postgresql/18/docker; se monta el directorio padre
+      - pgdata:/var/lib/postgresql
+      # Se ejecutan SOLO la primera vez (volumen vacío), en orden alfabético
+      - ./db/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./db/02_seed_catalogos.sql:/docker-entrypoint-initdb.d/02_seed_catalogos.sql:ro
+      - ./db/03_seed_demo.sql:/docker-entrypoint-initdb.d/03_seed_demo.sql:ro
+      # Carpeta completa para correr scripts extra: psql -f /seeds/04_seed_pruebas.sql
+      - ./db:/seeds:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recetas -d recetas_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  recetas-api:
+    container_name: recetas-api
+    build: ./recetas-api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__Default: Host=db;Port=5432;Database=recetas_db;Username=recetas;Password=${POSTGRES_PASSWORD:-recetas_dev}
+      Jwt__Key: ${JWT_KEY:-clave-solo-para-desarrollo-cambiar-en-produccion-0123456789}
+      Cors__Origins: http://localhost:8080,http://localhost:5173
+      Storage__Path: /app/uploads
+    volumes:
+      - uploads:/app/uploads
+    ports:
+      - "5000:8080"
+
+  recetas-spa:
+    container_name: recetas-spa
+    build: ./recetas-spa
+    restart: unless-stopped
+    depends_on:
+      - recetas-api
+    ports:
+      - "8080:80"
+
+volumes:
+  pgdata:
+  uploads:

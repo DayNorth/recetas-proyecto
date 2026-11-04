@@ -1,0 +1,72 @@
+@host = http://localhost:5000
+
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "maria@correo.com", "password": "Maria123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### RC-05 [T] Crear receta (transacción principal). Multipart: "datos" (JSON) + "imagen" opcional.
+# Un ingrediente con "nombre" que no existe se crea; con "ingredienteId" se usa el existente.
+# Si algo falla hay ROLLBACK: no queda receta, ni ingrediente nuevo, ni imagen.
+POST {{host}}/api/recetas
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="datos"
+Content-Type: application/json
+
+{
+  "titulo": "Arroz con leche",
+  "descripcion": "Postre cremoso con canela.",
+  "categoriaId": 3,
+  "dificultadId": 1,
+  "tiempoPrepMin": 45,
+  "porcionesBase": 6,
+  "ingredientes": [
+    { "ingredienteId": 1, "unidadId": 5, "cantidad": 1, "nota": "lavado" },
+    { "nombre": "Canela en rama", "unidadId": 8, "cantidad": 2 },
+    { "ingredienteId": 10, "unidadId": 5, "cantidad": 4 }
+  ],
+  "pasos": ["Cocinar el arroz con la canela.", "Agregar la leche y el azúcar.", "Servir tibio o frío."]
+}
+--lim--
+
+### Caso de falla: el mismo ingrediente por id y por nombre (pasa el validador y se detecta dentro de la transacción: 409 + ROLLBACK)
+POST {{host}}/api/recetas
+Authorization: Bearer {{token}}
+Content-Type: multipart/form-data; boundary=lim
+
+--lim
+Content-Disposition: form-data; name="datos"
+Content-Type: application/json
+
+{
+  "titulo": "Receta que falla", "categoriaId": 3, "dificultadId": 1, "tiempoPrepMin": 10, "porcionesBase": 2,
+  "ingredientes": [
+    { "nombre": "Ingrediente fantasma", "unidadId": 1, "cantidad": 10 },
+    { "ingredienteId": 1, "unidadId": 5, "cantidad": 1 },
+    { "nombre": "arroz", "unidadId": 5, "cantidad": 1 }
+  ],
+  "pasos": ["Paso único"]
+}
+--lim--
+
+### RC-06 [T] Editar receta propia (reemplaza ingredientes y pasos). 403 si es ajena; 409 si está moderada.
+PUT {{host}}/api/recetas/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "titulo": "Editada", "descripcion": "x", "categoriaId": 3, "dificultadId": 1, "tiempoPrepMin": 30, "porcionesBase": 4,
+  "ingredientes": [ { "ingredienteId": 1, "unidadId": 5, "cantidad": 2 } ],
+  "pasos": ["Uno", "Dos"]
+}
+
+### RC-07 Desactivar (baja lógica; idempotente)
+DELETE {{host}}/api/recetas/1
+Authorization: Bearer {{token}}

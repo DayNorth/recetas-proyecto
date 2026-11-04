@@ -1,0 +1,27 @@
+@host = http://localhost:5000
+
+### RC-01 Catálogo (público). Filtros: q, categoriaId, dificultadId, tiempoMax, ingredientes (repetido), orden, pagina, tamano
+GET {{host}}/api/recetas?q=pollo&categoriaId=2&orden=populares
+
+### RC-01 Búsqueda por ingredientes (debe tener TODOS) y registrada: devuelve busquedaId
+GET {{host}}/api/recetas?ingredientes=1&ingredientes=6&registrar=true
+
+### RC-02 Detalle (registra la visita; con busquedaId la enlaza a la búsqueda)
+GET {{host}}/api/recetas/1?busquedaId=1
+
+### RC-03 Ingredientes para otras porciones (1 a 100); "al gusto" no se escala
+GET {{host}}/api/recetas/1/ingredientes?porciones=8
+
+### Login (María)
+# @name login
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{ "correo": "maria@correo.com", "password": "Maria123*" }
+
+###
+@token = {{login.response.body.$.token}}
+
+### RC-04 Mis recetas (todos los estados; filtro opcional ?estado=INACTIVA)
+GET {{host}}/api/recetas/mias
+Authorization: Bearer {{token}}
