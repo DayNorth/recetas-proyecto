@@ -17,7 +17,7 @@ Docker Desktop (o Docker Engine con Compose). Para desarrollar fuera de Docker: 
 docker compose up -d --build
 ```
 
-La primera vez, la base se crea y se cargan `db/01_schema.sql`, `02_seed_catalogos.sql` y `03_seed_demo.sql`. Después abrí http://localhost:8080/estado: debe mostrar PostgreSQL 18, 23 tablas, 12 recetas y 43 usuarios.
+La primera vez, la base se crea y se cargan `db/01_schema.sql`, `02_seed_catalogos.sql`, `03_seed_demo.sql` y `05_seed_themealdb_es.sql`. Después abrí http://localhost:8080/estado: debe mostrar PostgreSQL 18, 23 tablas, 52 recetas y 43 usuarios.
 
 ```powershell
 docker compose ps                  # estado de los servicios
@@ -38,19 +38,15 @@ Son credenciales de desarrollo. Los valores por defecto de la base y del JWT est
 
 ## Base de datos
 - Fuente de verdad: los scripts de `db/` (no hay migraciones de EF Core).
-- `db/05_seed_themealdb_es.sql`: **40 recetas de TheMealDB traducidas al español** (datos en `db/data/themealdb_es.json`; se regenera con `node db/data/generar_seed.mjs`). Se cargan con un script, no con un endpoint de la API:
+- `db/05_seed_themealdb_es.sql`: **40 recetas de TheMealDB traducidas al español** (datos en `db/data/themealdb_es.json`; se regenera con `node db/data/generar_seed.mjs`). Se carga solo al crear la base; en una base ya creada:
   `docker compose exec db psql -U recetas -d recetas_db -f /seeds/05_seed_themealdb_es.sql`
-  No se carga solo porque cambia las cifras de los reportes de demostración.
 - `db/04_seed_pruebas.sql` es opcional (recetas para probar casos de falla):
   `docker compose exec db psql -U recetas -d recetas_db -f /seeds/04_seed_pruebas.sql`
 - Consultar a mano: `docker compose exec db psql -U recetas -d recetas_db`, o DBeaver en `localhost:5433`.
 - Ejemplo de reporte: `SELECT * FROM sp_reporte_mas_vistas('2026-05-01','2026-10-31',5);`
 
-## Pruebas
-```powershell
-cd recetas-api; dotnet test recetas-api.Tests   # necesita Docker: levanta un PostgreSQL 18 desechable
-```
-Documentación interactiva del API: http://localhost:5000/scalar. Ejemplos de cada endpoint: `recetas-api/http/`.
+## Documentación del API
+Documentación interactiva: http://localhost:5000/scalar. Ejemplos de cada endpoint: `recetas-api/http/`.
 
 ## Desarrollo sin reconstruir contenedores
 ```powershell

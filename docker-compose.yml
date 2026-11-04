@@ -2,7 +2,7 @@
 #
 #   docker compose up -d --build     levanta todo
 #   docker compose down              detiene (conserva los datos)
-#   docker compose down -v           detiene y BORRA la base (se recarga 01, 02 y 03)
+#   docker compose down -v           detiene y BORRA la base (se recarga 01, 02, 03 y 05)
 #
 #   SPA:  http://localhost:8080        API: http://localhost:5000/api/health
 #   BD (DBeaver / psql desde el equipo): localhost:5433, usuario recetas, base recetas_db
@@ -30,6 +30,7 @@ services:
       - ./db/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
       - ./db/02_seed_catalogos.sql:/docker-entrypoint-initdb.d/02_seed_catalogos.sql:ro
       - ./db/03_seed_demo.sql:/docker-entrypoint-initdb.d/03_seed_demo.sql:ro
+      - ./db/05_seed_themealdb_es.sql:/docker-entrypoint-initdb.d/05_seed_themealdb_es.sql:ro
       # Carpeta completa para correr scripts extra: psql -f /seeds/04_seed_pruebas.sql
       - ./db:/seeds:ro
     healthcheck:

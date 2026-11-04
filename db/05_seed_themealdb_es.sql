@@ -1,19 +1,11 @@
 -- =====================================================================
---  RECETAS IMPORTADAS DE TheMealDB, TRADUCIDAS AL ESPAÑOL   (RF-33)
+--  RECETAS DE TheMealDB, TRADUCIDAS AL ESPAÑOL
 --  40 recetas con origen = 'API' y api_referencia_id = idMeal.
 --
---  Archivo OPCIONAL: ejecutar después de 01, 02 y 03. No se carga solo con
---  docker compose para no alterar la historia de los datos de demostración
---  (visitas por receta y oferta/demanda de cada categoría). Para cargarlo:
+--  Se ejecuta después de 01, 02 y 03. docker compose lo carga solo la primera
+--  vez que se crea la base; para cargarlo a mano en una base existente:
 --    docker compose exec db psql -U recetas -d recetas_db -f /seeds/05_seed_themealdb_es.sql
---
---  Se puede ejecutar varias veces: una receta ya importada (mismo
---  api_referencia_id) se omite. Autor: admin@recetas.com.
---  Las imágenes y los videos son enlaces a TheMealDB y YouTube (no se copian).
---
---  GENERADO por db/data/generar_seed.mjs desde db/data/themealdb_es.json:
---  edita el JSON y vuelve a generar, no este archivo.
---  Fuente de los datos: https://www.themealdb.com (traducción y adaptación propias).
+--  Fuente de los datos: https://www.themealdb.com.
 -- =====================================================================
 
 SET timezone = 'America/Costa_Rica';
