@@ -20,7 +20,7 @@ export default function TarjetaReceta({ receta, enlace }) {
         </div>
         <div className="mt-auto small text-muted d-flex justify-content-between">
           <span>⏱ {receta.tiempoPrepMin} min · ♥ {receta.meGusta}</span>
-          <Estrellas promedio={receta.calificacionPromedio} total={receta.totalCalificaciones} />
+          <Estrellas promedio={receta.calificacionPromedio} total={receta.totalCalificaciones} tamano="sm" mostrarTexto={false} />
         </div>
       </Card.Body>
     </Card>
