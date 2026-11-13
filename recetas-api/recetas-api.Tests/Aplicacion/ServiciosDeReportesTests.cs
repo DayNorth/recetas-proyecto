@@ -220,8 +220,8 @@ public class ServicioDelTableroTests
     public async Task Una_receta_con_conversion_menor_a_la_mitad_del_promedio_se_marca_como_alta()
     {
         Devuelva("CONVERSION",
-            Fila(("titulo", "Mala"), ("visitas", 100m), ("meGusta", 10m), ("tasaConversion", 10m)),
-            Fila(("titulo", "Buena"), ("visitas", 100m), ("meGusta", 50m), ("tasaConversion", 50m)));
+            Fila(("titulo", "Mala"), ("visitas", 100m), ("interacciones", 10m), ("tasaConversion", 10m)),
+            Fila(("titulo", "Buena"), ("visitas", 100m), ("interacciones", 50m), ("tasaConversion", 50m)));
 
         var elHallazgo = Assert.Single((await CreeElServicio().ObtengaElTablero(new ConsultaDeReporte(), CT)).Hallazgos);
 

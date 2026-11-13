@@ -38,9 +38,9 @@ public class AutorizacionDeControladoresTests
             .ToList();
 
     [Fact]
-    public void La_api_expone_62_endpoints()
+    public void La_api_expone_63_endpoints()
     {
-        Assert.Equal(62, ListeLasAcciones().Count);
+        Assert.Equal(63, ListeLasAcciones().Count);
     }
 
     [Fact]
@@ -59,7 +59,7 @@ public class AutorizacionDeControladoresTests
             "CatalogosController.ListeLasRedesSociales", "CatalogosController.SugieraIngredientes",
             "SaludController.ObtengaElEstado",
             "RecetasController.BusqueLasRecetas", "RecetasController.ObtengaElDetalleDeLaReceta", "RecetasController.CalculeLosIngredientesPorPorciones",
-            "InteraccionController.ListeLosComentarios", "InteraccionController.CompartaLaReceta",
+            "InteraccionController.ListeLosComentarios", "InteraccionController.RegistreLaInteraccion", "InteraccionController.CompartaLaReceta",
             "NoticiasController.ListeLasNoticias", "NoticiasController.ObtengaLaNoticia"
         ];
 

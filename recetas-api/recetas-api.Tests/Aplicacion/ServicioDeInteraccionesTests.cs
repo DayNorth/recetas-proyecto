@@ -120,6 +120,24 @@ public class ServicioDeInteraccionesTests
     }
 
     [Fact]
+    public async Task Una_interaccion_de_un_visitante_anonimo_se_registra_sin_usuario()
+    {
+        _recetas.BusqueLaRecetaBasica(10, CT).Returns(UnaReceta());
+
+        await CreeElServicio(null).RegistreLaInteraccion(10, new InteraccionRequest("imprimir"), CT);
+
+        await _interacciones.Received(1).AgregueLaInteraccion(10, null, "IMPRIMIR", CT);
+    }
+
+    [Fact]
+    public async Task Una_interaccion_de_tipo_desconocido_da_400_sin_registrar()
+    {
+        await FalleCon(TipoDeFalla.SolicitudInvalida, () => CreeElServicio().RegistreLaInteraccion(10, new InteraccionRequest("HACKEAR"), CT));
+
+        await _interacciones.DidNotReceiveWithAnyArgs().AgregueLaInteraccion(default, default, default!, default);
+    }
+
+    [Fact]
     public async Task Compartir_en_una_red_inexistente_da_400_sin_registrar()
     {
         _recetas.BusqueLaRecetaBasica(10, CT).Returns(UnaReceta());

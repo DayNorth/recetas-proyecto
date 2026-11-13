@@ -57,9 +57,9 @@ public static class CatalogoReportes
             "Crear (o importar) recetas para los términos con más repeticiones.",
             ["inicio", "fin", "limite"]),
 
-        new("CONVERSION", "Conversión de visitas a me gusta",
+        new("CONVERSION", "Conversión de visitas a interacciones",
             "¿Qué recetas se ven mucho pero gustan poco?",
-            "Tasa = me gusta por cada 100 visitas, de menor a mayor. Solo entran recetas con al menos minVisitas visitas.",
+            "Tasa = interacciones por cada 100 visitas, de menor a mayor. Interacción = me gusta, compartido o señal de un visitante sin cuenta (imprimir, cambiar porciones, abrir un documento, leer 30 s con la pestaña visible). Solo entran recetas con al menos minVisitas visitas.",
             "Revisar la receta (fotos, pasos, ingredientes) o moderarla si la calificación también es baja.",
             ["inicio", "fin", "minVisitas"]),
 
@@ -76,7 +76,7 @@ public static class CatalogoReportes
     private static readonly Dictionary<string, string> TITULOS = new()
     {
         ["receta_id"] = "ID", ["titulo"] = "Receta", ["categoria"] = "Categoría", ["visitas"] = "Visitas",
-        ["me_gusta"] = "Me gusta", ["termino"] = "Término", ["veces_buscado"] = "Veces buscado",
+        ["me_gusta"] = "Me gusta", ["interacciones"] = "Interacciones", ["termino"] = "Término", ["veces_buscado"] = "Veces buscado",
         ["visitas_desde_busqueda"] = "Visitas desde búsqueda", ["terminos_distintos"] = "Términos distintos",
         ["promedio"] = "Promedio", ["votos"] = "Votos", ["recetas_publicadas"] = "Recetas publicadas",
         ["periodo"] = "Mes", ["favoritos"] = "Favoritos", ["comentarios"] = "Comentarios", ["compartidos"] = "Compartidos",

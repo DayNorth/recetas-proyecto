@@ -82,6 +82,10 @@ public class RepositorioDeInteracciones(RecetasDbContext laBaseDeDatos) : IRepos
         laBaseDeDatos.Comentarios.Where(comentario => comentario.RecetaId == laRecetaId && comentario.UsuarioId == elUsuarioId)
             .ExecuteDeleteAsync(cancelacion);
 
+    public async Task AgregueLaInteraccion(int laRecetaId, int? elUsuarioId, string elTipo, CancellationToken cancelacion) =>
+        await laBaseDeDatos.Database.ExecuteSqlInterpolatedAsync(
+            $"INSERT INTO interacciones_receta (receta_id, usuario_id, tipo) VALUES ({laRecetaId}, {elUsuarioId}, {elTipo})", cancelacion);
+
     public async Task AgregueElCompartido(int laRecetaId, int? elUsuarioId, short laRedId, CancellationToken cancelacion)
     {
         laBaseDeDatos.Compartidos.Add(new Compartido { RecetaId = laRecetaId, UsuarioId = elUsuarioId, RedId = laRedId });

@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
-import { Alert, Badge, Button, Card, Col, Dropdown, Form, Row } from 'react-bootstrap'
-import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { Alert, Badge, Button, Card, Col, Dropdown, Form, Modal, Row } from 'react-bootstrap'
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { api, consulta, urlArchivo } from '../api/client.js'
 import { useAuth } from '../auth/AuthContext.jsx'
 import { useAvisos } from '../components/Avisos.jsx'
@@ -24,7 +24,7 @@ export default function DetalleReceta() {
 }
 
 function Contenido({ receta }) {
-  const { usuario } = useAuth()
+  const { usuario, esAdmin } = useAuth()
   const avisar = useAvisos()
   const esAutor = usuario?.usuarioId === receta.autor.usuarioId
   const [ingredientes, setIngredientes] = useState(receta.ingredientes)
@@ -45,6 +45,26 @@ function Contenido({ receta }) {
     }, 300)
     return () => { vigente = false; clearTimeout(espera) }
   }, [porciones, receta, avisar])
+
+  // Señales de interés que también deja un visitante sin cuenta: alimentan la conversión del tablero.
+  const enviadas = useRef(new Set())
+  const señal = useCallback((tipo) => {
+    if (enviadas.current.has(tipo)) return
+    enviadas.current.add(tipo)
+    api.post(`/api/recetas/${receta.recetaId}/interacciones`, { tipo }).catch(() => {})
+  }, [receta.recetaId])
+  useEffect(() => {
+    // LECTURA: 30 s acumulados con la pestaña visible (en segundo plano no suma).
+    let segundos = 0
+    const lectura = setInterval(() => {
+      if (document.hidden || ++segundos < 30) return
+      señal('LECTURA')
+      clearInterval(lectura)
+    }, 1000)
+    const imprimio = () => señal('IMPRIMIR')
+    window.addEventListener('afterprint', imprimio)
+    return () => { clearInterval(lectura); window.removeEventListener('afterprint', imprimio) }
+  }, [señal])
 
   const conSesion = (accion) => async () => {
     if (!usuario) return avisar('Inicie sesión para usar esta opción.', 'warning')
@@ -98,6 +118,7 @@ function Contenido({ receta }) {
             </Button>
             <Compartir recetaId={receta.recetaId} />
             {esAutor && <Button as={Link} to={`/recetas/${receta.recetaId}/editar`} variant="outline-secondary">Editar</Button>}
+            {esAdmin && <ModerarReceta receta={receta} />}
           </div>
         </Col>
       </Row>
@@ -107,7 +128,7 @@ function Contenido({ receta }) {
           <h2 className="h5">Ingredientes</h2>
           <Form.Group className="mb-2 d-flex align-items-center gap-2" controlId="porciones">
             <Form.Label className="mb-0">Porciones</Form.Label>
-            <Form.Control type="number" min={1} max={1000} value={porciones} onChange={(e) => setPorciones(e.target.value)} style={{ width: 90 }} />
+            <Form.Control type="number" min={1} max={1000} value={porciones} onChange={(e) => { setPorciones(e.target.value); señal('PORCIONES') }} style={{ width: 90 }} />
           </Form.Group>
           <ul className="list-unstyled">
             {ingredientes.map((i) => (
@@ -130,10 +151,51 @@ function Contenido({ receta }) {
         </div>
       ))}
       {documentos.length > 0 && (
-        <p>{documentos.map((d) => <a key={d.multimediaId} href={urlArchivo(d.ruta)} target="_blank" rel="noreferrer" className="me-3">📄 {d.descripcion ?? 'Documento'}</a>)}</p>
+        <p>{documentos.map((d) => <a key={d.multimediaId} href={urlArchivo(d.ruta)} target="_blank" rel="noreferrer" className="me-3" onClick={() => señal('DOCUMENTO')}>📄 {d.descripcion ?? 'Documento'}</a>)}</p>
       )}
 
       <Comentarios recetaId={receta.recetaId} miCalificacion={receta.miCalificacion} esAutor={esAutor} />
+    </>
+  )
+}
+
+// El admin "elimina" retirando la receta (estado MODERADA, con motivo e historial); se puede restaurar.
+function ModerarReceta({ receta }) {
+  const avisar = useAvisos()
+  const navegar = useNavigate()
+  const retirada = receta.estado === 'MODERADA'
+  const [abierto, setAbierto] = useState(false)
+  const [motivo, setMotivo] = useState('')
+  const [enviando, setEnviando] = useState(false)
+
+  const ejecutar = async (e) => {
+    e.preventDefault()
+    setEnviando(true)
+    try {
+      await api.post(`/api/moderacion/recetas/${receta.recetaId}/${retirada ? 'restaurar' : 'retirar'}`, { motivo: motivo.trim() })
+      avisar(retirada ? 'Receta restaurada.' : 'Receta eliminada.')
+      navegar(retirada ? 0 : '/')
+    } catch (err) { avisar(err.message, 'danger'); setEnviando(false) }
+  }
+  return (
+    <>
+      <Button variant={retirada ? 'outline-success' : 'danger'} onClick={() => setAbierto(true)}>{retirada ? 'Restaurar' : 'Eliminar'}</Button>
+      <Modal show={abierto} onHide={() => setAbierto(false)} centered>
+        <Form onSubmit={ejecutar}>
+          <Modal.Header closeButton><Modal.Title as="h2" className="h5">{retirada ? 'Restaurar receta' : 'Eliminar receta'}</Modal.Title></Modal.Header>
+          <Modal.Body>
+            <p>{retirada ? 'La receta volverá a verse en el catálogo.' : <>«{receta.titulo}» dejará de verse en el catálogo. Podrá restaurarla después.</>}</p>
+            <Form.Group controlId="motivo-moderacion">
+              <Form.Label>Motivo</Form.Label>
+              <Form.Control as="textarea" rows={3} maxLength={500} autoFocus required value={motivo} onChange={(e) => setMotivo(e.target.value)} />
+            </Form.Group>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="outline-secondary" onClick={() => setAbierto(false)}>Cancelar</Button>
+            <Button type="submit" variant={retirada ? 'success' : 'danger'} disabled={enviando || !motivo.trim()}>{retirada ? 'Restaurar' : 'Eliminar'}</Button>
+          </Modal.Footer>
+        </Form>
+      </Modal>
     </>
   )
 }

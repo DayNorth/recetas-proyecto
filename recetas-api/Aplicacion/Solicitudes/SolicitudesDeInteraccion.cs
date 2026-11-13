@@ -4,6 +4,12 @@ namespace Recetas.Api.Aplicacion.Solicitudes;
 
 public record CalificarRequest(int? Calificacion, string? Comentario);
 public record CompartirRequest(short RedId);
+
+/// <summary>Señal de interés de un visitante (con o sin cuenta); alimenta la conversión del tablero.</summary>
+public record InteraccionRequest(string Tipo)
+{
+    public static readonly string[] TIPOS_VALIDOS = ["IMPRIMIR", "PORCIONES", "DOCUMENTO", "LECTURA"];
+}
 public record CrearListaRequest(int RecetaId, int Porciones, string? Nombre);
 public record MarcarItemRequest(bool Comprado);
 

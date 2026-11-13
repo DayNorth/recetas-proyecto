@@ -39,8 +39,8 @@ export default function MisRecetas() {
           <>
             <Row xs={1} sm={2} lg={3} xl={4} className="g-3">
               {datos.items.map((r) => (
-                <Col key={r.recetaId}>
-                  <TarjetaReceta receta={r} />
+                <Col key={r.recetaId} className="d-flex flex-column">
+                  <TarjetaReceta receta={r} className="flex-grow-1" />
                   <div className="d-flex justify-content-between align-items-center mt-1">
                     <Badge bg={COLOR[r.estado] ?? 'secondary'}>{r.estado}</Badge>
                     <Link to={`/recetas/${r.recetaId}/editar`} className="small">Editar</Link>

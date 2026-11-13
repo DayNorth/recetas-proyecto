@@ -74,6 +74,15 @@ public class ServicioDeInteracciones(IRepositorioDeInteracciones lasInteraccione
         await lasInteracciones.BorreLaCalificacion(elUsuarioActual.IdRequerido, laRecetaId, cancelacion);
     }
 
+    public async Task RegistreLaInteraccion(int laRecetaId, InteraccionRequest laSolicitud, CancellationToken cancelacion)
+    {
+        var elTipo = laSolicitud.Tipo?.Trim().ToUpperInvariant() ?? "";
+        if (!InteraccionRequest.TIPOS_VALIDOS.Contains(elTipo))
+            throw ExcepcionDeNegocio.PorSolicitudInvalida("Tipo inválido. Use: " + string.Join(", ", InteraccionRequest.TIPOS_VALIDOS) + ".");
+        await elControlDeAcceso.ExijaLaRecetaPublicada(laRecetaId, cancelacion);
+        await lasInteracciones.AgregueLaInteraccion(laRecetaId, elUsuarioActual.Id, elTipo, cancelacion);
+    }
+
     public async Task<CompartirResponse> CompartaLaReceta(int laRecetaId, CompartirRequest laSolicitud, CancellationToken cancelacion)
     {
         await elControlDeAcceso.ExijaLaRecetaPublicada(laRecetaId, cancelacion);

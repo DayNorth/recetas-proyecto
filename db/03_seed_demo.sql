@@ -24,7 +24,7 @@ SET timezone = 'America/Costa_Rica';
 -- Limpieza de datos de demostración (los catálogos y los 3 usuarios base
 -- de 02_seed_catalogos.sql se conservan)
 -- ---------------------------------------------------------------------
-TRUNCATE TABLE moderaciones, reportes_contenido, visitas_receta, busquedas, me_gusta, favoritos, comentarios, compartidos,
+TRUNCATE TABLE moderaciones, reportes_contenido, interacciones_receta, visitas_receta, busquedas, me_gusta, favoritos, comentarios, compartidos,
                lista_compra_items, listas_compras, receta_multimedia, receta_pasos,
                receta_ingredientes, recetas, ingredientes, noticias
     RESTART IDENTITY;

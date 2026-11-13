@@ -43,7 +43,7 @@ public class ServicioDelTablero(IRepositorioDeReportes losReportes, CalculadoraD
 
         var laConversion = await EjecuteElReporte("CONVERSION", new(MinVisitas: losUmbrales.MinVisitasConversion));
         var lasVisitas = laConversion.Filas.Sum(laFila => ConviertaADecimal(laFila["visitas"]));
-        var laConversionGlobal = lasVisitas == 0 ? 0m : laConversion.Filas.Sum(laFila => ConviertaADecimal(laFila["meGusta"])) * 100m / lasVisitas;
+        var laConversionGlobal = lasVisitas == 0 ? 0m : laConversion.Filas.Sum(laFila => ConviertaADecimal(laFila["interacciones"])) * 100m / lasVisitas;
         var lasDeBajaConversion = laConversion.Filas
             .Where(laFila => laConversionGlobal > 0 && ConviertaADecimal(laFila["tasaConversion"]) < losUmbrales.FactorConversion * laConversionGlobal)
             .Select(laFila => new ItemHallazgo((string)laFila["titulo"]!, ConviertaADecimal(laFila["tasaConversion"]),

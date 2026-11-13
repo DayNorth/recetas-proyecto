@@ -60,6 +60,16 @@ public class InteraccionController(ServicioDeInteracciones lasInteracciones) : C
         return NoContent();
     }
 
+    [HttpPost("api/recetas/{id:int}/interacciones")]
+    [AllowAnonymous]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public async Task<IActionResult> RegistreLaInteraccion([FromRoute(Name = "id")] int laRecetaId, InteraccionRequest laSolicitud,
+        CancellationToken cancelacion)
+    {
+        await lasInteracciones.RegistreLaInteraccion(laRecetaId, laSolicitud, cancelacion);
+        return NoContent();
+    }
+
     [HttpPost("api/recetas/{id:int}/compartir")]
     [AllowAnonymous]
     [EnableRateLimiting(LimitesDePeticiones.COMPARTIR)]

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import { urlArchivo } from '../api/client.js'
 import Estrellas from './Estrellas.jsx'
 
-export default function TarjetaReceta({ receta, enlace }) {
+export default function TarjetaReceta({ receta, enlace, className = 'h-100' }) {
   const portada = urlArchivo(receta.portada)
   return (
-    <Card className="h-100 shadow-sm">
+    <Card className={`${className} shadow-sm`}>
       {portada
         ? <Card.Img variant="top" src={portada} alt="" className="portada" loading="lazy" />
         : <div className="portada portada-vacia" aria-hidden="true">🍽️</div>}

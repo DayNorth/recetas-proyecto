@@ -32,4 +32,6 @@ public interface IRepositorioDeInteracciones
     Task BorreLaCalificacion(int elUsuarioId, int laRecetaId, CancellationToken cancelacion);
 
     Task AgregueElCompartido(int laRecetaId, int? elUsuarioId, short laRedId, CancellationToken cancelacion);
+
+    Task AgregueLaInteraccion(int laRecetaId, int? elUsuarioId, string elTipo, CancellationToken cancelacion);
 }
