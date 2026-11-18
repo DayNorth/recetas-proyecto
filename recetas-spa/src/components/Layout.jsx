@@ -61,7 +61,7 @@ export default function Layout() {
       <header className="app-header">
         <Navbar expand="lg" className="app-navbar" aria-label="Navegación principal">
           <Container>
-          <Navbar.Brand as={Link} to="/" className="app-brand d-flex align-items-center gap-2 py-0">
+            <Navbar.Brand as={Link} to="/" className="app-brand d-flex align-items-center gap-2 py-0">
               <img
                 src={logoRecetas}
                 alt="Logo Recetas"
@@ -69,10 +69,10 @@ export default function Layout() {
                 height="70"
                 className="rounded object-fit-contain"
               />
-            <div className="d-flex flex-column lh-1">
-              <span className="fw-bold fs-4 text-success">Recetas</span>
-            </div>
-          </Navbar.Brand>
+              <div className="d-flex flex-column lh-1">
+                <span className="fw-bold fs-4 text-success">Recetas</span>
+              </div>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="menu-principal" aria-label="Abrir menú de navegación" />
             <Navbar.Collapse id="menu-principal">
               <Nav className="ms-lg-3 me-lg-auto align-items-lg-center">
@@ -92,20 +92,6 @@ export default function Layout() {
                   </NavDropdown>
                 )}
               </Nav>
-
-              <Form className="header-search d-flex me-lg-3" role="search" onSubmit={buscar}>
-                <Form.Control
-                  type="search"
-                  value={busqueda}
-                  onChange={(e) => setBusqueda(e.target.value)}
-                  placeholder="Buscar recetas..."
-                  aria-label="Buscar recetas"
-                />
-                <Button variant="success" type="submit" className="ms-2 d-flex align-items-center" aria-label="Buscar">
-                  <i className="bi bi-search me-1" aria-hidden="true"></i>
-                  Buscar
-                </Button>
-              </Form>
 
               <Nav className="align-items-lg-center">
                 {usuario ? (

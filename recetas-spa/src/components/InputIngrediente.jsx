@@ -2,6 +2,7 @@ import { useEffect, useId, useState } from 'react'
 import { Form } from 'react-bootstrap'
 import { api, consulta } from '../api/client.js'
 
+
 /**
  * Texto con sugerencias de ingredientes (CT-05, por prefijo). Usa <datalist> nativo.
  * onSeleccion(ingrediente) se llama cuando el texto coincide exactamente con una sugerencia.
@@ -29,11 +30,14 @@ export default function InputIngrediente({ valor, onCambio, onSeleccion, ...rest
   }
 
   return (
-    <>
-      <Form.Control value={valor} onChange={cambiar} list={lista} autoComplete="off" {...resto} />
+    <div className="position-relative">
+      <i
+        className="bi bi-basket position-absolute top-50 start-0 translate-middle-y ms-1 text-success z-2" aria-hidden="true"
+      />
+      <Form.Control value={valor} onChange={cambiar} list={lista} autoComplete="off" className="border-0 shadow-none rounded-pill ps-4 " {...resto} />
       <datalist id={lista}>
         {sugerencias.map((s) => <option key={s.ingredienteId} value={s.nombre} />)}
       </datalist>
-    </>
+    </div>
   )
 }
